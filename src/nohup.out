@@ -1,0 +1,1133 @@
+[I 10:03:11.255 NotebookApp] Serving notebooks from local directory: /home/lab01/src
+[I 10:03:11.255 NotebookApp] Jupyter Notebook 6.4.10 is running at:
+[I 10:03:11.255 NotebookApp] http://ip-172-31-28-105:8901/
+[I 10:03:11.255 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 10:03:14.996 NotebookApp] Notebook 241202_start_spark.ipynb is not trusted
+[I 10:03:15.215 NotebookApp] Kernel started: 4f88571c-a284-42e4-bcb5-77f4bb1bef8a, name: spark
+24/12/03 10:03:44 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+[I 10:05:15.224 NotebookApp] Saving file at /241202_start_spark.ipynb
+[W 10:24:17.912 NotebookApp] Notebook Untitled.ipynb is not trusted
+[I 10:24:17.995 NotebookApp] Kernel started: 3dc4ba71-54dd-4d10-aaf9-92a1e3299e74, name: spark
+[I 10:26:18.017 NotebookApp] Saving file at /241203_p10_exam.ipynb
+24/12/03 10:27:26 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+[I 10:28:18.014 NotebookApp] Saving file at /241203_p10_exam.ipynb
+[I 10:30:18.961 NotebookApp] Saving file at /241203_p10_exam.ipynb
+[I 10:32:18.020 NotebookApp] Saving file at /241203_p10_exam.ipynb
+[Stage 0:>                                                          (0 + 1) / 1]                                                                                [I 10:34:18.967 NotebookApp] Saving file at /241203_p10_exam.ipynb
+[I 10:41:47.534 NotebookApp] Saving file at /241202_start_spark.ipynb
+[I 10:41:49.095 NotebookApp] Starting buffering for 4f88571c-a284-42e4-bcb5-77f4bb1bef8a:091402c87ccf4daa87acdb46e20485bd
+[I 10:41:49.922 NotebookApp] Saving file at /241203_p10_exam.ipynb
+[I 10:42:18.030 NotebookApp] Saving file at /241203_p10_exam.ipynb
+[I 10:44:41.647 NotebookApp] Saving file at /241203_p10_exam.ipynb
+[I 10:46:18.029 NotebookApp] Saving file at /241203_p10_exam.ipynb
+[I 10:48:18.045 NotebookApp] Saving file at /241203_p10_exam.ipynb
+[I 10:49:02.771 NotebookApp] Saving file at /241203_p10_exam.ipynb
+[I 10:50:18.039 NotebookApp] Saving file at /241203_p10_exam.ipynb
+[I 10:52:18.036 NotebookApp] Saving file at /241203_p10_exam.ipynb
+[I 10:54:11.242 NotebookApp] Saving file at /241203_p10_exam.ipynb
+[W 10:54:11.324 NotebookApp] Notebook 241203_p10_exam.ipynb is not trusted
+[I 10:56:18.040 NotebookApp] Saving file at /241203_p10_exam.ipynb
+[I 10:58:18.051 NotebookApp] Saving file at /241203_p10_exam.ipynb
+[I 11:00:18.046 NotebookApp] Saving file at /241203_p10_exam.ipynb
+[I 11:02:18.058 NotebookApp] Saving file at /241203_p10_exam.ipynb
+[I 11:04:46.023 NotebookApp] Saving file at /241203_p10_exam.ipynb
+[I 11:24:18.081 NotebookApp] Saving file at /241203_p10_exam.ipynb
+[I 11:26:18.082 NotebookApp] Saving file at /241203_p10_exam.ipynb
+[I 11:28:18.071 NotebookApp] Saving file at /241203_p10_exam.ipynb
+[I 11:30:18.079 NotebookApp] Saving file at /241203_p10_exam.ipynb
+[I 11:32:18.075 NotebookApp] Saving file at /241203_p10_exam.ipynb
+[I 11:34:18.082 NotebookApp] Saving file at /241203_p10_exam.ipynb
+24/12/03 11:34:52 WARN Instrumentation: [02c3cd33] regParam is zero, which might cause numerical instability and overfitting.
+24/12/03 11:34:53 WARN BLAS: Failed to load implementation from: com.github.fommil.netlib.NativeSystemBLAS
+24/12/03 11:34:53 WARN BLAS: Failed to load implementation from: com.github.fommil.netlib.NativeRefBLAS
+24/12/03 11:34:53 WARN LAPACK: Failed to load implementation from: com.github.fommil.netlib.NativeSystemLAPACK
+24/12/03 11:34:53 WARN LAPACK: Failed to load implementation from: com.github.fommil.netlib.NativeRefLAPACK
+[I 11:36:18.082 NotebookApp] Saving file at /241203_p10_exam.ipynb
+[I 11:52:18.138 NotebookApp] Saving file at /241203_p10_exam.ipynb
+[I 13:15:26.462 NotebookApp] Creating new directory in 
+[W 13:24:21.835 NotebookApp] 404 GET /api/contents/Untitled%20Folder?type=directory&_=1733185779492 (180.224.156.167): No such file or directory: Untitled Folder
+[W 13:24:21.835 NotebookApp] No such file or directory: Untitled Folder
+[W 13:24:21.836 NotebookApp] 404 GET /api/contents/Untitled%20Folder?type=directory&_=1733185779492 (180.224.156.167) 1.110000ms referer=http://13.208.56.0:8901/tree/Untitled%20Folder
+[W 13:24:23.514 NotebookApp] 404 GET /tree/Untitled%20Folder (180.224.156.167) 7.630000ms referer=None
+[W 13:24:25.374 NotebookApp] 404 GET /tree/Untitled%20Folder (180.224.156.167) 0.920000ms referer=None
+[W 13:24:28.382 NotebookApp] 404 GET /tree/Untitled%20Folder (180.224.156.167) 1.350000ms referer=None
+[I 13:24:41.726 NotebookApp] The port 8901 is already in use, trying another port.
+[I 13:24:41.726 NotebookApp] Serving notebooks from local directory: /home/lab01/src
+[I 13:24:41.726 NotebookApp] Jupyter Notebook 6.4.10 is running at:
+[I 13:24:41.726 NotebookApp] http://ip-172-31-28-105:8902/
+[I 13:24:41.726 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 13:24:44.594 NotebookApp] 404 GET /tree/Untitled%20Folder (180.224.156.167) 1.640000ms referer=None
+[I 13:24:47.286 NotebookApp] Starting buffering for 3dc4ba71-54dd-4d10-aaf9-92a1e3299e74:2bff843b8dbc4cf0aaf8a1abfa092a49
+[W 13:24:47.452 NotebookApp] Notebook 241203_p10_exam.ipynb is not trusted
+[I 13:24:48.965 NotebookApp] Starting buffering for 3dc4ba71-54dd-4d10-aaf9-92a1e3299e74:fd5bedd12fe7449cae234ba66785d2a8
+[I 13:27:03.848 NotebookApp] Creating new file in 
+[I 13:27:17.089 NotebookApp] Creating new file in /data
+[I 13:28:00.769 NotebookApp] Creating new notebook in 
+[I 13:28:01.333 NotebookApp] Kernel started: 55875098-625a-443f-8ca2-d83d4bfa16c6, name: spark
+[I 13:30:01.360 NotebookApp] Saving file at /241203_01_학생수세기.ipynb
+[I 13:32:01.363 NotebookApp] Saving file at /241203_01_학생수세기.ipynb
+[I 13:34:01.352 NotebookApp] Saving file at /241203_01_학생수세기.ipynb
+24/12/03 13:35:43 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+24/12/03 13:35:44 WARN Utils: Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+[I 13:36:01.361 NotebookApp] Saving file at /241203_01_학생수세기.ipynb
+[I 13:37:43.553 NotebookApp] Starting buffering for 55875098-625a-443f-8ca2-d83d4bfa16c6:d07fbaa30d674298ac62d09484cc0519
+[I 13:37:46.184 NotebookApp] Kernel restarted: 55875098-625a-443f-8ca2-d83d4bfa16c6
+[I 13:37:46.255 NotebookApp] Restoring connection for 55875098-625a-443f-8ca2-d83d4bfa16c6:d07fbaa30d674298ac62d09484cc0519
+[I 13:37:46.255 NotebookApp] Replaying 1 buffered messages
+24/12/03 13:37:50 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+24/12/03 13:37:51 WARN Utils: Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+[I 13:38:01.356 NotebookApp] Saving file at /241203_01_학생수세기.ipynb
+[I 13:39:14.834 NotebookApp] Saving file at /241203_01_학생수세기.ipynb
+[I 13:40:01.374 NotebookApp] Saving file at /241203_01_학생수세기.ipynb
+[Stage 0:>                                                          (0 + 1) / 1]                                                                                [I 13:42:01.367 NotebookApp] Saving file at /241203_01_학생수세기.ipynb
+[I 13:44:01.367 NotebookApp] Saving file at /241203_01_학생수세기.ipynb
+[I 13:46:01.362 NotebookApp] Saving file at /241203_01_학생수세기.ipynb
+[I 13:48:01.370 NotebookApp] Saving file at /241203_01_학생수세기.ipynb
+[I 13:50:01.380 NotebookApp] Saving file at /241203_01_학생수세기.ipynb
+[I 13:52:01.370 NotebookApp] Saving file at /241203_01_학생수세기.ipynb
+[I 13:54:01.381 NotebookApp] Saving file at /241203_01_학생수세기.ipynb
+[I 13:56:06.160 NotebookApp] Saving file at /241203_01_학생수세기.ipynb
+[I 14:25:51.256 NotebookApp] Saving file at /241203_01_학생수세기.ipynb
+[I 14:25:52.624 NotebookApp] Starting buffering for 55875098-625a-443f-8ca2-d83d4bfa16c6:d07fbaa30d674298ac62d09484cc0519
+[I 14:25:57.571 NotebookApp] Creating new directory in /data
+[W 14:26:12.294 NotebookApp] delete /untitled.txt
+[I 14:26:17.088 NotebookApp] Creating new notebook in 
+[I 14:26:17.723 NotebookApp] Kernel started: ac989c10-dd1e-476c-aad0-9d98672addad, name: spark
+[I 14:27:25.608 NotebookApp] Starting buffering for 4f88571c-a284-42e4-bcb5-77f4bb1bef8a:ad714106ad0b419c8f0c070f7164f3f0
+[W 14:27:33.210 NotebookApp] Notebook 241203_01_학생수세기.ipynb is not trusted
+[I 14:28:17.744 NotebookApp] Saving file at /20241203_02_KVRDD.ipynb
+24/12/03 14:29:10 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+24/12/03 14:29:11 WARN Utils: Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+[I 14:30:17.745 NotebookApp] Saving file at /20241203_02_KVRDD.ipynb
+[W 14:32:47.948 NotebookApp] delete /data/untitled
+[W 14:32:50.845 NotebookApp] delete /data/Untitled Folder
+[I 14:34:17.752 NotebookApp] Saving file at /20241203_02_KVRDD.ipynb
+[Stage 0:>                                                          (0 + 1) / 1]                                                                                [I 14:36:17.758 NotebookApp] Saving file at /20241203_02_KVRDD.ipynb
+[I 14:44:17.785 NotebookApp] Saving file at /20241203_02_KVRDD.ipynb
+[I 14:46:17.767 NotebookApp] Saving file at /20241203_02_KVRDD.ipynb
+[I 14:48:17.767 NotebookApp] Saving file at /20241203_02_KVRDD.ipynb
+[I 14:49:15.886 NotebookApp] Saving file at /20241203_02_KVRDD.ipynb
+[I 14:52:17.769 NotebookApp] Saving file at /20241203_02_KVRDD.ipynb
+[I 14:54:17.772 NotebookApp] Saving file at /20241203_02_KVRDD.ipynb
+[I 14:55:05.449 NotebookApp] Saving file at /20241203_02_KVRDD.ipynb
+[I 14:56:17.767 NotebookApp] Saving file at /20241203_02_KVRDD.ipynb
+[Stage 5:>                                                          (0 + 1) / 1]                                                                                [I 14:58:17.768 NotebookApp] Saving file at /20241203_02_KVRDD.ipynb
+[I 15:00:18.216 NotebookApp] Saving file at /20241203_02_KVRDD.ipynb
+[I 15:03:42.233 NotebookApp] Saving file at /20241203_02_KVRDD.ipynb
+[I 15:06:17.781 NotebookApp] Saving file at /20241203_02_KVRDD.ipynb
+[I 15:07:10.218 NotebookApp] Saving file at /20241203_02_KVRDD.ipynb
+[W 15:07:10.312 NotebookApp] Notebook 20241203_02_KVRDD.ipynb is not trusted
+[I 15:10:17.781 NotebookApp] Saving file at /20241203_02_KVRDD.ipynb
+24/12/03 15:11:01 ERROR Executor: Exception in task 0.0 in stage 11.0 (TID 9)
+org.apache.spark.api.python.PythonException: Traceback (most recent call last):
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/worker.py", line 604, in main
+    process()
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/worker.py", line 596, in process
+    serializer.dump_stream(out_iter, outfile)
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/serializers.py", line 263, in dump_stream
+    bytes = self.serializer.dumps(vs)
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/serializers.py", line 427, in dumps
+    return pickle.dumps(obj, pickle_protocol)
+_pickle.PicklingError: Can't pickle <function menu at 0x7f437872d940>: attribute lookup menu on __main__ failed
+
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.handlePythonException(PythonRunner.scala:517)
+	at org.apache.spark.api.python.PythonRunner$$anon$3.read(PythonRunner.scala:652)
+	at org.apache.spark.api.python.PythonRunner$$anon$3.read(PythonRunner.scala:635)
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.hasNext(PythonRunner.scala:470)
+	at org.apache.spark.InterruptibleIterator.hasNext(InterruptibleIterator.scala:37)
+	at scala.collection.Iterator.foreach(Iterator.scala:941)
+	at scala.collection.Iterator.foreach$(Iterator.scala:941)
+	at org.apache.spark.InterruptibleIterator.foreach(InterruptibleIterator.scala:28)
+	at scala.collection.generic.Growable.$plus$plus$eq(Growable.scala:62)
+	at scala.collection.generic.Growable.$plus$plus$eq$(Growable.scala:53)
+	at scala.collection.mutable.ArrayBuffer.$plus$plus$eq(ArrayBuffer.scala:105)
+	at scala.collection.mutable.ArrayBuffer.$plus$plus$eq(ArrayBuffer.scala:49)
+	at scala.collection.TraversableOnce.to(TraversableOnce.scala:315)
+	at scala.collection.TraversableOnce.to$(TraversableOnce.scala:313)
+	at org.apache.spark.InterruptibleIterator.to(InterruptibleIterator.scala:28)
+	at scala.collection.TraversableOnce.toBuffer(TraversableOnce.scala:307)
+	at scala.collection.TraversableOnce.toBuffer$(TraversableOnce.scala:307)
+	at org.apache.spark.InterruptibleIterator.toBuffer(InterruptibleIterator.scala:28)
+	at scala.collection.TraversableOnce.toArray(TraversableOnce.scala:294)
+	at scala.collection.TraversableOnce.toArray$(TraversableOnce.scala:288)
+	at org.apache.spark.InterruptibleIterator.toArray(InterruptibleIterator.scala:28)
+	at org.apache.spark.rdd.RDD.$anonfun$collect$2(RDD.scala:1030)
+	at org.apache.spark.SparkContext.$anonfun$runJob$5(SparkContext.scala:2236)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:90)
+	at org.apache.spark.scheduler.Task.run(Task.scala:131)
+	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$3(Executor.scala:497)
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1439)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:500)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+24/12/03 15:11:01 WARN TaskSetManager: Lost task 0.0 in stage 11.0 (TID 9) (ip-172-31-28-105.ap-northeast-3.compute.internal executor driver): org.apache.spark.api.python.PythonException: Traceback (most recent call last):
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/worker.py", line 604, in main
+    process()
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/worker.py", line 596, in process
+    serializer.dump_stream(out_iter, outfile)
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/serializers.py", line 263, in dump_stream
+    bytes = self.serializer.dumps(vs)
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/serializers.py", line 427, in dumps
+    return pickle.dumps(obj, pickle_protocol)
+_pickle.PicklingError: Can't pickle <function menu at 0x7f437872d940>: attribute lookup menu on __main__ failed
+
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.handlePythonException(PythonRunner.scala:517)
+	at org.apache.spark.api.python.PythonRunner$$anon$3.read(PythonRunner.scala:652)
+	at org.apache.spark.api.python.PythonRunner$$anon$3.read(PythonRunner.scala:635)
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.hasNext(PythonRunner.scala:470)
+	at org.apache.spark.InterruptibleIterator.hasNext(InterruptibleIterator.scala:37)
+	at scala.collection.Iterator.foreach(Iterator.scala:941)
+	at scala.collection.Iterator.foreach$(Iterator.scala:941)
+	at org.apache.spark.InterruptibleIterator.foreach(InterruptibleIterator.scala:28)
+	at scala.collection.generic.Growable.$plus$plus$eq(Growable.scala:62)
+	at scala.collection.generic.Growable.$plus$plus$eq$(Growable.scala:53)
+	at scala.collection.mutable.ArrayBuffer.$plus$plus$eq(ArrayBuffer.scala:105)
+	at scala.collection.mutable.ArrayBuffer.$plus$plus$eq(ArrayBuffer.scala:49)
+	at scala.collection.TraversableOnce.to(TraversableOnce.scala:315)
+	at scala.collection.TraversableOnce.to$(TraversableOnce.scala:313)
+	at org.apache.spark.InterruptibleIterator.to(InterruptibleIterator.scala:28)
+	at scala.collection.TraversableOnce.toBuffer(TraversableOnce.scala:307)
+	at scala.collection.TraversableOnce.toBuffer$(TraversableOnce.scala:307)
+	at org.apache.spark.InterruptibleIterator.toBuffer(InterruptibleIterator.scala:28)
+	at scala.collection.TraversableOnce.toArray(TraversableOnce.scala:294)
+	at scala.collection.TraversableOnce.toArray$(TraversableOnce.scala:288)
+	at org.apache.spark.InterruptibleIterator.toArray(InterruptibleIterator.scala:28)
+	at org.apache.spark.rdd.RDD.$anonfun$collect$2(RDD.scala:1030)
+	at org.apache.spark.SparkContext.$anonfun$runJob$5(SparkContext.scala:2236)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:90)
+	at org.apache.spark.scheduler.Task.run(Task.scala:131)
+	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$3(Executor.scala:497)
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1439)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:500)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+24/12/03 15:11:01 ERROR TaskSetManager: Task 0 in stage 11.0 failed 1 times; aborting job
+24/12/03 15:11:45 ERROR Executor: Exception in task 0.0 in stage 12.0 (TID 10)
+org.apache.spark.api.python.PythonException: Traceback (most recent call last):
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/worker.py", line 604, in main
+    process()
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/worker.py", line 596, in process
+    serializer.dump_stream(out_iter, outfile)
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/serializers.py", line 263, in dump_stream
+    bytes = self.serializer.dumps(vs)
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/serializers.py", line 427, in dumps
+    return pickle.dumps(obj, pickle_protocol)
+_pickle.PicklingError: Can't pickle <function menu at 0x7f437872daf0>: attribute lookup menu on __main__ failed
+
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.handlePythonException(PythonRunner.scala:517)
+	at org.apache.spark.api.python.PythonRunner$$anon$3.read(PythonRunner.scala:652)
+	at org.apache.spark.api.python.PythonRunner$$anon$3.read(PythonRunner.scala:635)
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.hasNext(PythonRunner.scala:470)
+	at org.apache.spark.InterruptibleIterator.hasNext(InterruptibleIterator.scala:37)
+	at scala.collection.Iterator.foreach(Iterator.scala:941)
+	at scala.collection.Iterator.foreach$(Iterator.scala:941)
+	at org.apache.spark.InterruptibleIterator.foreach(InterruptibleIterator.scala:28)
+	at scala.collection.generic.Growable.$plus$plus$eq(Growable.scala:62)
+	at scala.collection.generic.Growable.$plus$plus$eq$(Growable.scala:53)
+	at scala.collection.mutable.ArrayBuffer.$plus$plus$eq(ArrayBuffer.scala:105)
+	at scala.collection.mutable.ArrayBuffer.$plus$plus$eq(ArrayBuffer.scala:49)
+	at scala.collection.TraversableOnce.to(TraversableOnce.scala:315)
+	at scala.collection.TraversableOnce.to$(TraversableOnce.scala:313)
+	at org.apache.spark.InterruptibleIterator.to(InterruptibleIterator.scala:28)
+	at scala.collection.TraversableOnce.toBuffer(TraversableOnce.scala:307)
+	at scala.collection.TraversableOnce.toBuffer$(TraversableOnce.scala:307)
+	at org.apache.spark.InterruptibleIterator.toBuffer(InterruptibleIterator.scala:28)
+	at scala.collection.TraversableOnce.toArray(TraversableOnce.scala:294)
+	at scala.collection.TraversableOnce.toArray$(TraversableOnce.scala:288)
+	at org.apache.spark.InterruptibleIterator.toArray(InterruptibleIterator.scala:28)
+	at org.apache.spark.api.python.PythonRDD$.$anonfun$runJob$1(PythonRDD.scala:166)
+	at org.apache.spark.SparkContext.$anonfun$runJob$5(SparkContext.scala:2236)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:90)
+	at org.apache.spark.scheduler.Task.run(Task.scala:131)
+	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$3(Executor.scala:497)
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1439)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:500)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+24/12/03 15:11:45 WARN TaskSetManager: Lost task 0.0 in stage 12.0 (TID 10) (ip-172-31-28-105.ap-northeast-3.compute.internal executor driver): org.apache.spark.api.python.PythonException: Traceback (most recent call last):
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/worker.py", line 604, in main
+    process()
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/worker.py", line 596, in process
+    serializer.dump_stream(out_iter, outfile)
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/serializers.py", line 263, in dump_stream
+    bytes = self.serializer.dumps(vs)
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/serializers.py", line 427, in dumps
+    return pickle.dumps(obj, pickle_protocol)
+_pickle.PicklingError: Can't pickle <function menu at 0x7f437872daf0>: attribute lookup menu on __main__ failed
+
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.handlePythonException(PythonRunner.scala:517)
+	at org.apache.spark.api.python.PythonRunner$$anon$3.read(PythonRunner.scala:652)
+	at org.apache.spark.api.python.PythonRunner$$anon$3.read(PythonRunner.scala:635)
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.hasNext(PythonRunner.scala:470)
+	at org.apache.spark.InterruptibleIterator.hasNext(InterruptibleIterator.scala:37)
+	at scala.collection.Iterator.foreach(Iterator.scala:941)
+	at scala.collection.Iterator.foreach$(Iterator.scala:941)
+	at org.apache.spark.InterruptibleIterator.foreach(InterruptibleIterator.scala:28)
+	at scala.collection.generic.Growable.$plus$plus$eq(Growable.scala:62)
+	at scala.collection.generic.Growable.$plus$plus$eq$(Growable.scala:53)
+	at scala.collection.mutable.ArrayBuffer.$plus$plus$eq(ArrayBuffer.scala:105)
+	at scala.collection.mutable.ArrayBuffer.$plus$plus$eq(ArrayBuffer.scala:49)
+	at scala.collection.TraversableOnce.to(TraversableOnce.scala:315)
+	at scala.collection.TraversableOnce.to$(TraversableOnce.scala:313)
+	at org.apache.spark.InterruptibleIterator.to(InterruptibleIterator.scala:28)
+	at scala.collection.TraversableOnce.toBuffer(TraversableOnce.scala:307)
+	at scala.collection.TraversableOnce.toBuffer$(TraversableOnce.scala:307)
+	at org.apache.spark.InterruptibleIterator.toBuffer(InterruptibleIterator.scala:28)
+	at scala.collection.TraversableOnce.toArray(TraversableOnce.scala:294)
+	at scala.collection.TraversableOnce.toArray$(TraversableOnce.scala:288)
+	at org.apache.spark.InterruptibleIterator.toArray(InterruptibleIterator.scala:28)
+	at org.apache.spark.api.python.PythonRDD$.$anonfun$runJob$1(PythonRDD.scala:166)
+	at org.apache.spark.SparkContext.$anonfun$runJob$5(SparkContext.scala:2236)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:90)
+	at org.apache.spark.scheduler.Task.run(Task.scala:131)
+	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$3(Executor.scala:497)
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1439)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:500)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+24/12/03 15:11:45 ERROR TaskSetManager: Task 0 in stage 12.0 failed 1 times; aborting job
+24/12/03 15:11:48 ERROR Executor: Exception in task 0.0 in stage 13.0 (TID 11)
+org.apache.spark.api.python.PythonException: Traceback (most recent call last):
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/worker.py", line 604, in main
+    process()
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/worker.py", line 596, in process
+    serializer.dump_stream(out_iter, outfile)
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/serializers.py", line 263, in dump_stream
+    bytes = self.serializer.dumps(vs)
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/serializers.py", line 427, in dumps
+    return pickle.dumps(obj, pickle_protocol)
+_pickle.PicklingError: Can't pickle <function menu at 0x7f437872daf0>: attribute lookup menu on __main__ failed
+
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.handlePythonException(PythonRunner.scala:517)
+	at org.apache.spark.api.python.PythonRunner$$anon$3.read(PythonRunner.scala:652)
+	at org.apache.spark.api.python.PythonRunner$$anon$3.read(PythonRunner.scala:635)
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.hasNext(PythonRunner.scala:470)
+	at org.apache.spark.InterruptibleIterator.hasNext(InterruptibleIterator.scala:37)
+	at scala.collection.Iterator.foreach(Iterator.scala:941)
+	at scala.collection.Iterator.foreach$(Iterator.scala:941)
+	at org.apache.spark.InterruptibleIterator.foreach(InterruptibleIterator.scala:28)
+	at scala.collection.generic.Growable.$plus$plus$eq(Growable.scala:62)
+	at scala.collection.generic.Growable.$plus$plus$eq$(Growable.scala:53)
+	at scala.collection.mutable.ArrayBuffer.$plus$plus$eq(ArrayBuffer.scala:105)
+	at scala.collection.mutable.ArrayBuffer.$plus$plus$eq(ArrayBuffer.scala:49)
+	at scala.collection.TraversableOnce.to(TraversableOnce.scala:315)
+	at scala.collection.TraversableOnce.to$(TraversableOnce.scala:313)
+	at org.apache.spark.InterruptibleIterator.to(InterruptibleIterator.scala:28)
+	at scala.collection.TraversableOnce.toBuffer(TraversableOnce.scala:307)
+	at scala.collection.TraversableOnce.toBuffer$(TraversableOnce.scala:307)
+	at org.apache.spark.InterruptibleIterator.toBuffer(InterruptibleIterator.scala:28)
+	at scala.collection.TraversableOnce.toArray(TraversableOnce.scala:294)
+	at scala.collection.TraversableOnce.toArray$(TraversableOnce.scala:288)
+	at org.apache.spark.InterruptibleIterator.toArray(InterruptibleIterator.scala:28)
+	at org.apache.spark.api.python.PythonRDD$.$anonfun$runJob$1(PythonRDD.scala:166)
+	at org.apache.spark.SparkContext.$anonfun$runJob$5(SparkContext.scala:2236)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:90)
+	at org.apache.spark.scheduler.Task.run(Task.scala:131)
+	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$3(Executor.scala:497)
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1439)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:500)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+24/12/03 15:11:48 WARN TaskSetManager: Lost task 0.0 in stage 13.0 (TID 11) (ip-172-31-28-105.ap-northeast-3.compute.internal executor driver): org.apache.spark.api.python.PythonException: Traceback (most recent call last):
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/worker.py", line 604, in main
+    process()
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/worker.py", line 596, in process
+    serializer.dump_stream(out_iter, outfile)
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/serializers.py", line 263, in dump_stream
+    bytes = self.serializer.dumps(vs)
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/serializers.py", line 427, in dumps
+    return pickle.dumps(obj, pickle_protocol)
+_pickle.PicklingError: Can't pickle <function menu at 0x7f437872daf0>: attribute lookup menu on __main__ failed
+
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.handlePythonException(PythonRunner.scala:517)
+	at org.apache.spark.api.python.PythonRunner$$anon$3.read(PythonRunner.scala:652)
+	at org.apache.spark.api.python.PythonRunner$$anon$3.read(PythonRunner.scala:635)
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.hasNext(PythonRunner.scala:470)
+	at org.apache.spark.InterruptibleIterator.hasNext(InterruptibleIterator.scala:37)
+	at scala.collection.Iterator.foreach(Iterator.scala:941)
+	at scala.collection.Iterator.foreach$(Iterator.scala:941)
+	at org.apache.spark.InterruptibleIterator.foreach(InterruptibleIterator.scala:28)
+	at scala.collection.generic.Growable.$plus$plus$eq(Growable.scala:62)
+	at scala.collection.generic.Growable.$plus$plus$eq$(Growable.scala:53)
+	at scala.collection.mutable.ArrayBuffer.$plus$plus$eq(ArrayBuffer.scala:105)
+	at scala.collection.mutable.ArrayBuffer.$plus$plus$eq(ArrayBuffer.scala:49)
+	at scala.collection.TraversableOnce.to(TraversableOnce.scala:315)
+	at scala.collection.TraversableOnce.to$(TraversableOnce.scala:313)
+	at org.apache.spark.InterruptibleIterator.to(InterruptibleIterator.scala:28)
+	at scala.collection.TraversableOnce.toBuffer(TraversableOnce.scala:307)
+	at scala.collection.TraversableOnce.toBuffer$(TraversableOnce.scala:307)
+	at org.apache.spark.InterruptibleIterator.toBuffer(InterruptibleIterator.scala:28)
+	at scala.collection.TraversableOnce.toArray(TraversableOnce.scala:294)
+	at scala.collection.TraversableOnce.toArray$(TraversableOnce.scala:288)
+	at org.apache.spark.InterruptibleIterator.toArray(InterruptibleIterator.scala:28)
+	at org.apache.spark.api.python.PythonRDD$.$anonfun$runJob$1(PythonRDD.scala:166)
+	at org.apache.spark.SparkContext.$anonfun$runJob$5(SparkContext.scala:2236)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:90)
+	at org.apache.spark.scheduler.Task.run(Task.scala:131)
+	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$3(Executor.scala:497)
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1439)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:500)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+24/12/03 15:11:48 ERROR TaskSetManager: Task 0 in stage 13.0 failed 1 times; aborting job
+24/12/03 15:12:13 ERROR Executor: Exception in task 0.0 in stage 14.0 (TID 12)
+org.apache.spark.api.python.PythonException: Traceback (most recent call last):
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/worker.py", line 604, in main
+    process()
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/worker.py", line 596, in process
+    serializer.dump_stream(out_iter, outfile)
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/serializers.py", line 132, in dump_stream
+    for obj in iterator:
+  File "/opt/spark/python/pyspark/rdd.py", line 2075, in add_shuffle_key
+    yield outputSerializer.dumps(items)
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/serializers.py", line 427, in dumps
+    return pickle.dumps(obj, pickle_protocol)
+_pickle.PicklingError: Can't pickle <function menu at 0x7f43787380d0>: attribute lookup menu on __main__ failed
+
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.handlePythonException(PythonRunner.scala:517)
+	at org.apache.spark.api.python.PythonRunner$$anon$3.read(PythonRunner.scala:652)
+	at org.apache.spark.api.python.PythonRunner$$anon$3.read(PythonRunner.scala:635)
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.hasNext(PythonRunner.scala:470)
+	at org.apache.spark.InterruptibleIterator.hasNext(InterruptibleIterator.scala:37)
+	at scala.collection.Iterator$GroupedIterator.takeDestructively(Iterator.scala:1158)
+	at scala.collection.Iterator$GroupedIterator.go(Iterator.scala:1174)
+	at scala.collection.Iterator$GroupedIterator.fill(Iterator.scala:1211)
+	at scala.collection.Iterator$GroupedIterator.hasNext(Iterator.scala:1215)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:458)
+	at org.apache.spark.shuffle.sort.BypassMergeSortShuffleWriter.write(BypassMergeSortShuffleWriter.java:132)
+	at org.apache.spark.shuffle.ShuffleWriteProcessor.write(ShuffleWriteProcessor.scala:59)
+	at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:99)
+	at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:52)
+	at org.apache.spark.scheduler.Task.run(Task.scala:131)
+	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$3(Executor.scala:497)
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1439)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:500)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+24/12/03 15:12:13 WARN TaskSetManager: Lost task 0.0 in stage 14.0 (TID 12) (ip-172-31-28-105.ap-northeast-3.compute.internal executor driver): org.apache.spark.api.python.PythonException: Traceback (most recent call last):
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/worker.py", line 604, in main
+    process()
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/worker.py", line 596, in process
+    serializer.dump_stream(out_iter, outfile)
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/serializers.py", line 132, in dump_stream
+    for obj in iterator:
+  File "/opt/spark/python/pyspark/rdd.py", line 2075, in add_shuffle_key
+    yield outputSerializer.dumps(items)
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/serializers.py", line 427, in dumps
+    return pickle.dumps(obj, pickle_protocol)
+_pickle.PicklingError: Can't pickle <function menu at 0x7f43787380d0>: attribute lookup menu on __main__ failed
+
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.handlePythonException(PythonRunner.scala:517)
+	at org.apache.spark.api.python.PythonRunner$$anon$3.read(PythonRunner.scala:652)
+	at org.apache.spark.api.python.PythonRunner$$anon$3.read(PythonRunner.scala:635)
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.hasNext(PythonRunner.scala:470)
+	at org.apache.spark.InterruptibleIterator.hasNext(InterruptibleIterator.scala:37)
+	at scala.collection.Iterator$GroupedIterator.takeDestructively(Iterator.scala:1158)
+	at scala.collection.Iterator$GroupedIterator.go(Iterator.scala:1174)
+	at scala.collection.Iterator$GroupedIterator.fill(Iterator.scala:1211)
+	at scala.collection.Iterator$GroupedIterator.hasNext(Iterator.scala:1215)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:458)
+	at org.apache.spark.shuffle.sort.BypassMergeSortShuffleWriter.write(BypassMergeSortShuffleWriter.java:132)
+	at org.apache.spark.shuffle.ShuffleWriteProcessor.write(ShuffleWriteProcessor.scala:59)
+	at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:99)
+	at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:52)
+	at org.apache.spark.scheduler.Task.run(Task.scala:131)
+	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$3(Executor.scala:497)
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1439)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:500)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+24/12/03 15:12:13 ERROR TaskSetManager: Task 0 in stage 14.0 failed 1 times; aborting job
+[I 15:12:17.787 NotebookApp] Saving file at /20241203_02_KVRDD.ipynb
+[I 15:14:17.788 NotebookApp] Saving file at /20241203_02_KVRDD.ipynb
+[I 15:16:17.790 NotebookApp] Saving file at /20241203_02_KVRDD.ipynb
+[I 15:18:17.797 NotebookApp] Saving file at /20241203_02_KVRDD.ipynb
+[I 15:19:19.997 NotebookApp] Starting buffering for ac989c10-dd1e-476c-aad0-9d98672addad:a53cffb13324427e9ca439825a817811
+[I 15:19:22.629 NotebookApp] Kernel restarted: ac989c10-dd1e-476c-aad0-9d98672addad
+[I 15:19:22.698 NotebookApp] Restoring connection for ac989c10-dd1e-476c-aad0-9d98672addad:a53cffb13324427e9ca439825a817811
+[I 15:19:22.698 NotebookApp] Replaying 2 buffered messages
+24/12/03 15:19:24 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+24/12/03 15:19:26 WARN Utils: Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+[Stage 0:>                                                          (0 + 1) / 1]                                                                                [I 15:20:17.797 NotebookApp] Saving file at /20241203_02_KVRDD.ipynb
+[I 15:22:17.803 NotebookApp] Saving file at /20241203_02_KVRDD.ipynb
+[I 15:22:43.961 NotebookApp] Saving file at /20241203_02_KVRDD.ipynb
+[I 15:30:44.400 NotebookApp] Creating new notebook in 
+[I 15:30:45.101 NotebookApp] Kernel started: 844b051b-8c69-4b94-9cd0-98a0774a3cca, name: spark
+[I 15:32:45.124 NotebookApp] Saving file at /Untitled.ipynb
+[I 15:34:45.124 NotebookApp] Saving file at /Untitled.ipynb
+[I 16:02:41.641 NotebookApp] Saving file at /Untitled.ipynb
+[I 16:02:45.271 NotebookApp] Saving file at /Untitled.ipynb
+[I 16:04:46.285 NotebookApp] Saving file at /Untitled.ipynb
+24/12/03 16:09:46 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+24/12/03 16:09:47 WARN Utils: Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+24/12/03 16:09:47 WARN Utils: Service 'SparkUI' could not bind on port 4041. Attempting port 4042.
+[Stage 0:>                                                          (0 + 1) / 1]                                                                                [I 16:10:45.175 NotebookApp] Saving file at /Untitled.ipynb
+[I 16:11:59.913 NotebookApp] Saving file at /Untitled.ipynb
+[I 16:12:45.169 NotebookApp] Saving file at /Untitled.ipynb
+24/12/03 16:13:53 ERROR Executor: Exception in task 0.0 in stage 5.0 (TID 5)
+org.apache.spark.api.python.PythonException: Traceback (most recent call last):
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/worker.py", line 604, in main
+    process()
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/worker.py", line 596, in process
+    serializer.dump_stream(out_iter, outfile)
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/serializers.py", line 259, in dump_stream
+    vs = list(itertools.islice(iterator, batch))
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/util.py", line 73, in wrapper
+    return f(*args, **kwargs)
+  File "/tmp/ipykernel_5366/2747465062.py", line 2, in <lambda>
+AttributeError: 'int' object has no attribute 'lower'
+
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.handlePythonException(PythonRunner.scala:517)
+	at org.apache.spark.api.python.PythonRunner$$anon$3.read(PythonRunner.scala:652)
+	at org.apache.spark.api.python.PythonRunner$$anon$3.read(PythonRunner.scala:635)
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.hasNext(PythonRunner.scala:470)
+	at org.apache.spark.InterruptibleIterator.hasNext(InterruptibleIterator.scala:37)
+	at scala.collection.Iterator.foreach(Iterator.scala:941)
+	at scala.collection.Iterator.foreach$(Iterator.scala:941)
+	at org.apache.spark.InterruptibleIterator.foreach(InterruptibleIterator.scala:28)
+	at scala.collection.generic.Growable.$plus$plus$eq(Growable.scala:62)
+	at scala.collection.generic.Growable.$plus$plus$eq$(Growable.scala:53)
+	at scala.collection.mutable.ArrayBuffer.$plus$plus$eq(ArrayBuffer.scala:105)
+	at scala.collection.mutable.ArrayBuffer.$plus$plus$eq(ArrayBuffer.scala:49)
+	at scala.collection.TraversableOnce.to(TraversableOnce.scala:315)
+	at scala.collection.TraversableOnce.to$(TraversableOnce.scala:313)
+	at org.apache.spark.InterruptibleIterator.to(InterruptibleIterator.scala:28)
+	at scala.collection.TraversableOnce.toBuffer(TraversableOnce.scala:307)
+	at scala.collection.TraversableOnce.toBuffer$(TraversableOnce.scala:307)
+	at org.apache.spark.InterruptibleIterator.toBuffer(InterruptibleIterator.scala:28)
+	at scala.collection.TraversableOnce.toArray(TraversableOnce.scala:294)
+	at scala.collection.TraversableOnce.toArray$(TraversableOnce.scala:288)
+	at org.apache.spark.InterruptibleIterator.toArray(InterruptibleIterator.scala:28)
+	at org.apache.spark.rdd.RDD.$anonfun$collect$2(RDD.scala:1030)
+	at org.apache.spark.SparkContext.$anonfun$runJob$5(SparkContext.scala:2236)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:90)
+	at org.apache.spark.scheduler.Task.run(Task.scala:131)
+	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$3(Executor.scala:497)
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1439)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:500)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+24/12/03 16:13:53 WARN TaskSetManager: Lost task 0.0 in stage 5.0 (TID 5) (ip-172-31-28-105.ap-northeast-3.compute.internal executor driver): org.apache.spark.api.python.PythonException: Traceback (most recent call last):
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/worker.py", line 604, in main
+    process()
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/worker.py", line 596, in process
+    serializer.dump_stream(out_iter, outfile)
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/serializers.py", line 259, in dump_stream
+    vs = list(itertools.islice(iterator, batch))
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/util.py", line 73, in wrapper
+    return f(*args, **kwargs)
+  File "/tmp/ipykernel_5366/2747465062.py", line 2, in <lambda>
+AttributeError: 'int' object has no attribute 'lower'
+
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.handlePythonException(PythonRunner.scala:517)
+	at org.apache.spark.api.python.PythonRunner$$anon$3.read(PythonRunner.scala:652)
+	at org.apache.spark.api.python.PythonRunner$$anon$3.read(PythonRunner.scala:635)
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.hasNext(PythonRunner.scala:470)
+	at org.apache.spark.InterruptibleIterator.hasNext(InterruptibleIterator.scala:37)
+	at scala.collection.Iterator.foreach(Iterator.scala:941)
+	at scala.collection.Iterator.foreach$(Iterator.scala:941)
+	at org.apache.spark.InterruptibleIterator.foreach(InterruptibleIterator.scala:28)
+	at scala.collection.generic.Growable.$plus$plus$eq(Growable.scala:62)
+	at scala.collection.generic.Growable.$plus$plus$eq$(Growable.scala:53)
+	at scala.collection.mutable.ArrayBuffer.$plus$plus$eq(ArrayBuffer.scala:105)
+	at scala.collection.mutable.ArrayBuffer.$plus$plus$eq(ArrayBuffer.scala:49)
+	at scala.collection.TraversableOnce.to(TraversableOnce.scala:315)
+	at scala.collection.TraversableOnce.to$(TraversableOnce.scala:313)
+	at org.apache.spark.InterruptibleIterator.to(InterruptibleIterator.scala:28)
+	at scala.collection.TraversableOnce.toBuffer(TraversableOnce.scala:307)
+	at scala.collection.TraversableOnce.toBuffer$(TraversableOnce.scala:307)
+	at org.apache.spark.InterruptibleIterator.toBuffer(InterruptibleIterator.scala:28)
+	at scala.collection.TraversableOnce.toArray(TraversableOnce.scala:294)
+	at scala.collection.TraversableOnce.toArray$(TraversableOnce.scala:288)
+	at org.apache.spark.InterruptibleIterator.toArray(InterruptibleIterator.scala:28)
+	at org.apache.spark.rdd.RDD.$anonfun$collect$2(RDD.scala:1030)
+	at org.apache.spark.SparkContext.$anonfun$runJob$5(SparkContext.scala:2236)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:90)
+	at org.apache.spark.scheduler.Task.run(Task.scala:131)
+	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$3(Executor.scala:497)
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1439)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:500)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+24/12/03 16:13:53 ERROR TaskSetManager: Task 0 in stage 5.0 failed 1 times; aborting job
+24/12/03 16:14:40 ERROR Executor: Exception in task 0.0 in stage 6.0 (TID 6)
+org.apache.spark.api.python.PythonException: Traceback (most recent call last):
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/worker.py", line 604, in main
+    process()
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/worker.py", line 596, in process
+    serializer.dump_stream(out_iter, outfile)
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/serializers.py", line 259, in dump_stream
+    vs = list(itertools.islice(iterator, batch))
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/util.py", line 73, in wrapper
+    return f(*args, **kwargs)
+  File "/tmp/ipykernel_5366/2747465062.py", line 2, in <lambda>
+AttributeError: 'int' object has no attribute 'lower'
+
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.handlePythonException(PythonRunner.scala:517)
+	at org.apache.spark.api.python.PythonRunner$$anon$3.read(PythonRunner.scala:652)
+	at org.apache.spark.api.python.PythonRunner$$anon$3.read(PythonRunner.scala:635)
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.hasNext(PythonRunner.scala:470)
+	at org.apache.spark.InterruptibleIterator.hasNext(InterruptibleIterator.scala:37)
+	at scala.collection.Iterator.foreach(Iterator.scala:941)
+	at scala.collection.Iterator.foreach$(Iterator.scala:941)
+	at org.apache.spark.InterruptibleIterator.foreach(InterruptibleIterator.scala:28)
+	at scala.collection.generic.Growable.$plus$plus$eq(Growable.scala:62)
+	at scala.collection.generic.Growable.$plus$plus$eq$(Growable.scala:53)
+	at scala.collection.mutable.ArrayBuffer.$plus$plus$eq(ArrayBuffer.scala:105)
+	at scala.collection.mutable.ArrayBuffer.$plus$plus$eq(ArrayBuffer.scala:49)
+	at scala.collection.TraversableOnce.to(TraversableOnce.scala:315)
+	at scala.collection.TraversableOnce.to$(TraversableOnce.scala:313)
+	at org.apache.spark.InterruptibleIterator.to(InterruptibleIterator.scala:28)
+	at scala.collection.TraversableOnce.toBuffer(TraversableOnce.scala:307)
+	at scala.collection.TraversableOnce.toBuffer$(TraversableOnce.scala:307)
+	at org.apache.spark.InterruptibleIterator.toBuffer(InterruptibleIterator.scala:28)
+	at scala.collection.TraversableOnce.toArray(TraversableOnce.scala:294)
+	at scala.collection.TraversableOnce.toArray$(TraversableOnce.scala:288)
+	at org.apache.spark.InterruptibleIterator.toArray(InterruptibleIterator.scala:28)
+	at org.apache.spark.rdd.RDD.$anonfun$collect$2(RDD.scala:1030)
+	at org.apache.spark.SparkContext.$anonfun$runJob$5(SparkContext.scala:2236)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:90)
+	at org.apache.spark.scheduler.Task.run(Task.scala:131)
+	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$3(Executor.scala:497)
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1439)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:500)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+24/12/03 16:14:40 WARN TaskSetManager: Lost task 0.0 in stage 6.0 (TID 6) (ip-172-31-28-105.ap-northeast-3.compute.internal executor driver): org.apache.spark.api.python.PythonException: Traceback (most recent call last):
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/worker.py", line 604, in main
+    process()
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/worker.py", line 596, in process
+    serializer.dump_stream(out_iter, outfile)
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/serializers.py", line 259, in dump_stream
+    vs = list(itertools.islice(iterator, batch))
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/util.py", line 73, in wrapper
+    return f(*args, **kwargs)
+  File "/tmp/ipykernel_5366/2747465062.py", line 2, in <lambda>
+AttributeError: 'int' object has no attribute 'lower'
+
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.handlePythonException(PythonRunner.scala:517)
+	at org.apache.spark.api.python.PythonRunner$$anon$3.read(PythonRunner.scala:652)
+	at org.apache.spark.api.python.PythonRunner$$anon$3.read(PythonRunner.scala:635)
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.hasNext(PythonRunner.scala:470)
+	at org.apache.spark.InterruptibleIterator.hasNext(InterruptibleIterator.scala:37)
+	at scala.collection.Iterator.foreach(Iterator.scala:941)
+	at scala.collection.Iterator.foreach$(Iterator.scala:941)
+	at org.apache.spark.InterruptibleIterator.foreach(InterruptibleIterator.scala:28)
+	at scala.collection.generic.Growable.$plus$plus$eq(Growable.scala:62)
+	at scala.collection.generic.Growable.$plus$plus$eq$(Growable.scala:53)
+	at scala.collection.mutable.ArrayBuffer.$plus$plus$eq(ArrayBuffer.scala:105)
+	at scala.collection.mutable.ArrayBuffer.$plus$plus$eq(ArrayBuffer.scala:49)
+	at scala.collection.TraversableOnce.to(TraversableOnce.scala:315)
+	at scala.collection.TraversableOnce.to$(TraversableOnce.scala:313)
+	at org.apache.spark.InterruptibleIterator.to(InterruptibleIterator.scala:28)
+	at scala.collection.TraversableOnce.toBuffer(TraversableOnce.scala:307)
+	at scala.collection.TraversableOnce.toBuffer$(TraversableOnce.scala:307)
+	at org.apache.spark.InterruptibleIterator.toBuffer(InterruptibleIterator.scala:28)
+	at scala.collection.TraversableOnce.toArray(TraversableOnce.scala:294)
+	at scala.collection.TraversableOnce.toArray$(TraversableOnce.scala:288)
+	at org.apache.spark.InterruptibleIterator.toArray(InterruptibleIterator.scala:28)
+	at org.apache.spark.rdd.RDD.$anonfun$collect$2(RDD.scala:1030)
+	at org.apache.spark.SparkContext.$anonfun$runJob$5(SparkContext.scala:2236)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:90)
+	at org.apache.spark.scheduler.Task.run(Task.scala:131)
+	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$3(Executor.scala:497)
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1439)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:500)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+24/12/03 16:14:40 ERROR TaskSetManager: Task 0 in stage 6.0 failed 1 times; aborting job
+[I 16:14:45.192 NotebookApp] Saving file at /Untitled.ipynb
+[I 16:16:45.166 NotebookApp] Saving file at /Untitled.ipynb
+[I 16:18:45.171 NotebookApp] Saving file at /Untitled.ipynb
+[W 16:20:00.282 NotebookApp] Notebook 20241203_02_KVRDD.ipynb is not trusted
+[I 16:20:45.230 NotebookApp] Saving file at /Untitled.ipynb
+[I 16:22:45.198 NotebookApp] Saving file at /Untitled.ipynb
+24/12/03 16:23:18 ERROR Executor: Exception in task 0.0 in stage 11.0 (TID 11)
+org.apache.spark.api.python.PythonException: Traceback (most recent call last):
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/worker.py", line 604, in main
+    process()
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/worker.py", line 594, in process
+    out_iter = func(split_index, iterator)
+  File "/opt/spark/python/pyspark/rdd.py", line 2916, in pipeline_func
+    return func(split, prev_func(split, iterator))
+  File "/opt/spark/python/pyspark/rdd.py", line 2916, in pipeline_func
+    return func(split, prev_func(split, iterator))
+  File "/opt/spark/python/pyspark/rdd.py", line 418, in func
+    return f(iterator)
+  File "/opt/spark/python/pyspark/rdd.py", line 2144, in combineLocally
+    merger.mergeValues(iterator)
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/shuffle.py", line 240, in mergeValues
+    for k, v in iterator:
+ValueError: too many values to unpack (expected 2)
+
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.handlePythonException(PythonRunner.scala:517)
+	at org.apache.spark.api.python.PythonRunner$$anon$3.read(PythonRunner.scala:652)
+	at org.apache.spark.api.python.PythonRunner$$anon$3.read(PythonRunner.scala:635)
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.hasNext(PythonRunner.scala:470)
+	at org.apache.spark.InterruptibleIterator.hasNext(InterruptibleIterator.scala:37)
+	at scala.collection.Iterator$GroupedIterator.fill(Iterator.scala:1209)
+	at scala.collection.Iterator$GroupedIterator.hasNext(Iterator.scala:1215)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:458)
+	at org.apache.spark.shuffle.sort.BypassMergeSortShuffleWriter.write(BypassMergeSortShuffleWriter.java:132)
+	at org.apache.spark.shuffle.ShuffleWriteProcessor.write(ShuffleWriteProcessor.scala:59)
+	at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:99)
+	at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:52)
+	at org.apache.spark.scheduler.Task.run(Task.scala:131)
+	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$3(Executor.scala:497)
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1439)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:500)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+24/12/03 16:23:18 WARN TaskSetManager: Lost task 0.0 in stage 11.0 (TID 11) (ip-172-31-28-105.ap-northeast-3.compute.internal executor driver): org.apache.spark.api.python.PythonException: Traceback (most recent call last):
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/worker.py", line 604, in main
+    process()
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/worker.py", line 594, in process
+    out_iter = func(split_index, iterator)
+  File "/opt/spark/python/pyspark/rdd.py", line 2916, in pipeline_func
+    return func(split, prev_func(split, iterator))
+  File "/opt/spark/python/pyspark/rdd.py", line 2916, in pipeline_func
+    return func(split, prev_func(split, iterator))
+  File "/opt/spark/python/pyspark/rdd.py", line 418, in func
+    return f(iterator)
+  File "/opt/spark/python/pyspark/rdd.py", line 2144, in combineLocally
+    merger.mergeValues(iterator)
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/shuffle.py", line 240, in mergeValues
+    for k, v in iterator:
+ValueError: too many values to unpack (expected 2)
+
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.handlePythonException(PythonRunner.scala:517)
+	at org.apache.spark.api.python.PythonRunner$$anon$3.read(PythonRunner.scala:652)
+	at org.apache.spark.api.python.PythonRunner$$anon$3.read(PythonRunner.scala:635)
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.hasNext(PythonRunner.scala:470)
+	at org.apache.spark.InterruptibleIterator.hasNext(InterruptibleIterator.scala:37)
+	at scala.collection.Iterator$GroupedIterator.fill(Iterator.scala:1209)
+	at scala.collection.Iterator$GroupedIterator.hasNext(Iterator.scala:1215)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:458)
+	at org.apache.spark.shuffle.sort.BypassMergeSortShuffleWriter.write(BypassMergeSortShuffleWriter.java:132)
+	at org.apache.spark.shuffle.ShuffleWriteProcessor.write(ShuffleWriteProcessor.scala:59)
+	at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:99)
+	at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:52)
+	at org.apache.spark.scheduler.Task.run(Task.scala:131)
+	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$3(Executor.scala:497)
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1439)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:500)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+24/12/03 16:23:18 ERROR TaskSetManager: Task 0 in stage 11.0 failed 1 times; aborting job
+24/12/03 16:24:44 ERROR Executor: Exception in task 0.0 in stage 13.0 (TID 12)
+org.apache.spark.api.python.PythonException: Traceback (most recent call last):
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/worker.py", line 604, in main
+    process()
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/worker.py", line 596, in process
+    serializer.dump_stream(out_iter, outfile)
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/serializers.py", line 259, in dump_stream
+    vs = list(itertools.islice(iterator, batch))
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/util.py", line 73, in wrapper
+    return f(*args, **kwargs)
+  File "/tmp/ipykernel_5366/172471121.py", line 2, in <lambda>
+IndexError: tuple index out of range
+
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.handlePythonException(PythonRunner.scala:517)
+	at org.apache.spark.api.python.PythonRunner$$anon$3.read(PythonRunner.scala:652)
+	at org.apache.spark.api.python.PythonRunner$$anon$3.read(PythonRunner.scala:635)
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.hasNext(PythonRunner.scala:470)
+	at org.apache.spark.InterruptibleIterator.hasNext(InterruptibleIterator.scala:37)
+	at scala.collection.Iterator.foreach(Iterator.scala:941)
+	at scala.collection.Iterator.foreach$(Iterator.scala:941)
+	at org.apache.spark.InterruptibleIterator.foreach(InterruptibleIterator.scala:28)
+	at scala.collection.generic.Growable.$plus$plus$eq(Growable.scala:62)
+	at scala.collection.generic.Growable.$plus$plus$eq$(Growable.scala:53)
+	at scala.collection.mutable.ArrayBuffer.$plus$plus$eq(ArrayBuffer.scala:105)
+	at scala.collection.mutable.ArrayBuffer.$plus$plus$eq(ArrayBuffer.scala:49)
+	at scala.collection.TraversableOnce.to(TraversableOnce.scala:315)
+	at scala.collection.TraversableOnce.to$(TraversableOnce.scala:313)
+	at org.apache.spark.InterruptibleIterator.to(InterruptibleIterator.scala:28)
+	at scala.collection.TraversableOnce.toBuffer(TraversableOnce.scala:307)
+	at scala.collection.TraversableOnce.toBuffer$(TraversableOnce.scala:307)
+	at org.apache.spark.InterruptibleIterator.toBuffer(InterruptibleIterator.scala:28)
+	at scala.collection.TraversableOnce.toArray(TraversableOnce.scala:294)
+	at scala.collection.TraversableOnce.toArray$(TraversableOnce.scala:288)
+	at org.apache.spark.InterruptibleIterator.toArray(InterruptibleIterator.scala:28)
+	at org.apache.spark.rdd.RDD.$anonfun$collect$2(RDD.scala:1030)
+	at org.apache.spark.SparkContext.$anonfun$runJob$5(SparkContext.scala:2236)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:90)
+	at org.apache.spark.scheduler.Task.run(Task.scala:131)
+	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$3(Executor.scala:497)
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1439)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:500)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+24/12/03 16:24:44 WARN TaskSetManager: Lost task 0.0 in stage 13.0 (TID 12) (ip-172-31-28-105.ap-northeast-3.compute.internal executor driver): org.apache.spark.api.python.PythonException: Traceback (most recent call last):
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/worker.py", line 604, in main
+    process()
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/worker.py", line 596, in process
+    serializer.dump_stream(out_iter, outfile)
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/serializers.py", line 259, in dump_stream
+    vs = list(itertools.islice(iterator, batch))
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/util.py", line 73, in wrapper
+    return f(*args, **kwargs)
+  File "/tmp/ipykernel_5366/172471121.py", line 2, in <lambda>
+IndexError: tuple index out of range
+
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.handlePythonException(PythonRunner.scala:517)
+	at org.apache.spark.api.python.PythonRunner$$anon$3.read(PythonRunner.scala:652)
+	at org.apache.spark.api.python.PythonRunner$$anon$3.read(PythonRunner.scala:635)
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.hasNext(PythonRunner.scala:470)
+	at org.apache.spark.InterruptibleIterator.hasNext(InterruptibleIterator.scala:37)
+	at scala.collection.Iterator.foreach(Iterator.scala:941)
+	at scala.collection.Iterator.foreach$(Iterator.scala:941)
+	at org.apache.spark.InterruptibleIterator.foreach(InterruptibleIterator.scala:28)
+	at scala.collection.generic.Growable.$plus$plus$eq(Growable.scala:62)
+	at scala.collection.generic.Growable.$plus$plus$eq$(Growable.scala:53)
+	at scala.collection.mutable.ArrayBuffer.$plus$plus$eq(ArrayBuffer.scala:105)
+	at scala.collection.mutable.ArrayBuffer.$plus$plus$eq(ArrayBuffer.scala:49)
+	at scala.collection.TraversableOnce.to(TraversableOnce.scala:315)
+	at scala.collection.TraversableOnce.to$(TraversableOnce.scala:313)
+	at org.apache.spark.InterruptibleIterator.to(InterruptibleIterator.scala:28)
+	at scala.collection.TraversableOnce.toBuffer(TraversableOnce.scala:307)
+	at scala.collection.TraversableOnce.toBuffer$(TraversableOnce.scala:307)
+	at org.apache.spark.InterruptibleIterator.toBuffer(InterruptibleIterator.scala:28)
+	at scala.collection.TraversableOnce.toArray(TraversableOnce.scala:294)
+	at scala.collection.TraversableOnce.toArray$(TraversableOnce.scala:288)
+	at org.apache.spark.InterruptibleIterator.toArray(InterruptibleIterator.scala:28)
+	at org.apache.spark.rdd.RDD.$anonfun$collect$2(RDD.scala:1030)
+	at org.apache.spark.SparkContext.$anonfun$runJob$5(SparkContext.scala:2236)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:90)
+	at org.apache.spark.scheduler.Task.run(Task.scala:131)
+	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$3(Executor.scala:497)
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1439)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:500)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+24/12/03 16:24:44 ERROR TaskSetManager: Task 0 in stage 13.0 failed 1 times; aborting job
+[I 16:24:45.208 NotebookApp] Saving file at /Untitled.ipynb
+24/12/03 16:24:56 ERROR Executor: Exception in task 0.0 in stage 14.0 (TID 13)
+org.apache.spark.api.python.PythonException: Traceback (most recent call last):
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/worker.py", line 604, in main
+    process()
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/worker.py", line 594, in process
+    out_iter = func(split_index, iterator)
+  File "/opt/spark/python/pyspark/rdd.py", line 2916, in pipeline_func
+    return func(split, prev_func(split, iterator))
+  File "/opt/spark/python/pyspark/rdd.py", line 2916, in pipeline_func
+    return func(split, prev_func(split, iterator))
+  File "/opt/spark/python/pyspark/rdd.py", line 418, in func
+    return f(iterator)
+  File "/opt/spark/python/pyspark/rdd.py", line 2144, in combineLocally
+    merger.mergeValues(iterator)
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/shuffle.py", line 240, in mergeValues
+    for k, v in iterator:
+ValueError: too many values to unpack (expected 2)
+
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.handlePythonException(PythonRunner.scala:517)
+	at org.apache.spark.api.python.PythonRunner$$anon$3.read(PythonRunner.scala:652)
+	at org.apache.spark.api.python.PythonRunner$$anon$3.read(PythonRunner.scala:635)
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.hasNext(PythonRunner.scala:470)
+	at org.apache.spark.InterruptibleIterator.hasNext(InterruptibleIterator.scala:37)
+	at scala.collection.Iterator$GroupedIterator.fill(Iterator.scala:1209)
+	at scala.collection.Iterator$GroupedIterator.hasNext(Iterator.scala:1215)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:458)
+	at org.apache.spark.shuffle.sort.BypassMergeSortShuffleWriter.write(BypassMergeSortShuffleWriter.java:132)
+	at org.apache.spark.shuffle.ShuffleWriteProcessor.write(ShuffleWriteProcessor.scala:59)
+	at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:99)
+	at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:52)
+	at org.apache.spark.scheduler.Task.run(Task.scala:131)
+	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$3(Executor.scala:497)
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1439)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:500)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+24/12/03 16:24:56 WARN TaskSetManager: Lost task 0.0 in stage 14.0 (TID 13) (ip-172-31-28-105.ap-northeast-3.compute.internal executor driver): org.apache.spark.api.python.PythonException: Traceback (most recent call last):
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/worker.py", line 604, in main
+    process()
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/worker.py", line 594, in process
+    out_iter = func(split_index, iterator)
+  File "/opt/spark/python/pyspark/rdd.py", line 2916, in pipeline_func
+    return func(split, prev_func(split, iterator))
+  File "/opt/spark/python/pyspark/rdd.py", line 2916, in pipeline_func
+    return func(split, prev_func(split, iterator))
+  File "/opt/spark/python/pyspark/rdd.py", line 418, in func
+    return f(iterator)
+  File "/opt/spark/python/pyspark/rdd.py", line 2144, in combineLocally
+    merger.mergeValues(iterator)
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/shuffle.py", line 240, in mergeValues
+    for k, v in iterator:
+ValueError: too many values to unpack (expected 2)
+
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.handlePythonException(PythonRunner.scala:517)
+	at org.apache.spark.api.python.PythonRunner$$anon$3.read(PythonRunner.scala:652)
+	at org.apache.spark.api.python.PythonRunner$$anon$3.read(PythonRunner.scala:635)
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.hasNext(PythonRunner.scala:470)
+	at org.apache.spark.InterruptibleIterator.hasNext(InterruptibleIterator.scala:37)
+	at scala.collection.Iterator$GroupedIterator.fill(Iterator.scala:1209)
+	at scala.collection.Iterator$GroupedIterator.hasNext(Iterator.scala:1215)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:458)
+	at org.apache.spark.shuffle.sort.BypassMergeSortShuffleWriter.write(BypassMergeSortShuffleWriter.java:132)
+	at org.apache.spark.shuffle.ShuffleWriteProcessor.write(ShuffleWriteProcessor.scala:59)
+	at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:99)
+	at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:52)
+	at org.apache.spark.scheduler.Task.run(Task.scala:131)
+	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$3(Executor.scala:497)
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1439)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:500)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+24/12/03 16:24:56 ERROR TaskSetManager: Task 0 in stage 14.0 failed 1 times; aborting job
+[I 16:26:45.257 NotebookApp] Saving file at /Untitled.ipynb
+24/12/03 16:28:28 ERROR Executor: Exception in task 0.0 in stage 16.0 (TID 14)
+org.apache.spark.api.python.PythonException: Traceback (most recent call last):
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/worker.py", line 604, in main
+    process()
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/worker.py", line 594, in process
+    out_iter = func(split_index, iterator)
+  File "/opt/spark/python/pyspark/rdd.py", line 2916, in pipeline_func
+    return func(split, prev_func(split, iterator))
+  File "/opt/spark/python/pyspark/rdd.py", line 2916, in pipeline_func
+    return func(split, prev_func(split, iterator))
+  File "/opt/spark/python/pyspark/rdd.py", line 418, in func
+    return f(iterator)
+  File "/opt/spark/python/pyspark/rdd.py", line 2144, in combineLocally
+    merger.mergeValues(iterator)
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/shuffle.py", line 240, in mergeValues
+    for k, v in iterator:
+ValueError: too many values to unpack (expected 2)
+
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.handlePythonException(PythonRunner.scala:517)
+	at org.apache.spark.api.python.PythonRunner$$anon$3.read(PythonRunner.scala:652)
+	at org.apache.spark.api.python.PythonRunner$$anon$3.read(PythonRunner.scala:635)
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.hasNext(PythonRunner.scala:470)
+	at org.apache.spark.InterruptibleIterator.hasNext(InterruptibleIterator.scala:37)
+	at scala.collection.Iterator$GroupedIterator.fill(Iterator.scala:1209)
+	at scala.collection.Iterator$GroupedIterator.hasNext(Iterator.scala:1215)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:458)
+	at org.apache.spark.shuffle.sort.BypassMergeSortShuffleWriter.write(BypassMergeSortShuffleWriter.java:132)
+	at org.apache.spark.shuffle.ShuffleWriteProcessor.write(ShuffleWriteProcessor.scala:59)
+	at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:99)
+	at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:52)
+	at org.apache.spark.scheduler.Task.run(Task.scala:131)
+	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$3(Executor.scala:497)
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1439)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:500)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+24/12/03 16:28:28 WARN TaskSetManager: Lost task 0.0 in stage 16.0 (TID 14) (ip-172-31-28-105.ap-northeast-3.compute.internal executor driver): org.apache.spark.api.python.PythonException: Traceback (most recent call last):
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/worker.py", line 604, in main
+    process()
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/worker.py", line 594, in process
+    out_iter = func(split_index, iterator)
+  File "/opt/spark/python/pyspark/rdd.py", line 2916, in pipeline_func
+    return func(split, prev_func(split, iterator))
+  File "/opt/spark/python/pyspark/rdd.py", line 2916, in pipeline_func
+    return func(split, prev_func(split, iterator))
+  File "/opt/spark/python/pyspark/rdd.py", line 418, in func
+    return f(iterator)
+  File "/opt/spark/python/pyspark/rdd.py", line 2144, in combineLocally
+    merger.mergeValues(iterator)
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/shuffle.py", line 240, in mergeValues
+    for k, v in iterator:
+ValueError: too many values to unpack (expected 2)
+
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.handlePythonException(PythonRunner.scala:517)
+	at org.apache.spark.api.python.PythonRunner$$anon$3.read(PythonRunner.scala:652)
+	at org.apache.spark.api.python.PythonRunner$$anon$3.read(PythonRunner.scala:635)
+	at org.apache.spark.api.python.BasePythonRunner$ReaderIterator.hasNext(PythonRunner.scala:470)
+	at org.apache.spark.InterruptibleIterator.hasNext(InterruptibleIterator.scala:37)
+	at scala.collection.Iterator$GroupedIterator.fill(Iterator.scala:1209)
+	at scala.collection.Iterator$GroupedIterator.hasNext(Iterator.scala:1215)
+	at scala.collection.Iterator$$anon$10.hasNext(Iterator.scala:458)
+	at org.apache.spark.shuffle.sort.BypassMergeSortShuffleWriter.write(BypassMergeSortShuffleWriter.java:132)
+	at org.apache.spark.shuffle.ShuffleWriteProcessor.write(ShuffleWriteProcessor.scala:59)
+	at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:99)
+	at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:52)
+	at org.apache.spark.scheduler.Task.run(Task.scala:131)
+	at org.apache.spark.executor.Executor$TaskRunner.$anonfun$run$3(Executor.scala:497)
+	at org.apache.spark.util.Utils$.tryWithSafeFinally(Utils.scala:1439)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:500)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+24/12/03 16:28:28 ERROR TaskSetManager: Task 0 in stage 16.0 failed 1 times; aborting job
+[I 16:28:45.223 NotebookApp] Saving file at /Untitled.ipynb
+[I 16:30:15.793 NotebookApp] Saving file at /Untitled.ipynb
+[W 16:30:32.775 NotebookApp] Notebook Untitled.ipynb is not trusted
+[I 16:32:45.192 NotebookApp] Saving file at /Untitled.ipynb
+[I 16:34:45.319 NotebookApp] Saving file at /Untitled.ipynb
+[C 17:52:28.045 NotebookApp] received signal 15, stopping
+[I 17:52:28.047 NotebookApp] Shutting down 0 kernels
+[I 17:52:28.048 NotebookApp] Shutting down 0 terminals
+[C 17:52:28.131 NotebookApp] received signal 15, stopping
+[I 17:52:28.132 NotebookApp] Shutting down 5 kernels
+[I 17:52:28.139 NotebookApp] Kernel shutdown: 844b051b-8c69-4b94-9cd0-98a0774a3cca
+[I 17:52:28.139 NotebookApp] Kernel shutdown: 3dc4ba71-54dd-4d10-aaf9-92a1e3299e74
+[I 17:52:28.169 NotebookApp] Kernel shutdown: ac989c10-dd1e-476c-aad0-9d98672addad
+[I 17:52:28.173 NotebookApp] Kernel shutdown: 4f88571c-a284-42e4-bcb5-77f4bb1bef8a
+[I 17:52:28.173 NotebookApp] Kernel shutdown: 55875098-625a-443f-8ca2-d83d4bfa16c6
+[I 17:52:28.202 NotebookApp] KernelRestarter: restarting kernel (1/5), keep random ports
+WARNING:root:kernel 55875098-625a-443f-8ca2-d83d4bfa16c6 restarted
+[E 17:52:28.203 NotebookApp] Cannot interrupt kernel. No kernel is running!
+    Traceback (most recent call last):
+      File "/usr/local/lib/python3.6/dist-packages/jupyter_client/manager.py", line 71, in wrapper
+        out = await method(self, *args, **kwargs)
+      File "/usr/local/lib/python3.6/dist-packages/jupyter_client/manager.py", line 479, in _async_shutdown_kernel
+        await ensure_async(self.interrupt_kernel())
+      File "/usr/local/lib/python3.6/dist-packages/jupyter_client/utils.py", line 26, in wrapped
+        raise e
+      File "/usr/local/lib/python3.6/dist-packages/jupyter_client/utils.py", line 23, in wrapped
+        return loop.run_until_complete(future)
+      File "/usr/local/lib/python3.6/dist-packages/nest_asyncio.py", line 89, in run_until_complete
+        return f.result()
+      File "/usr/lib/python3.6/asyncio/tasks.py", line 180, in _step
+        result = coro.send(None)
+      File "/usr/local/lib/python3.6/dist-packages/jupyter_client/manager.py", line 587, in _async_interrupt_kernel
+        raise RuntimeError("Cannot interrupt kernel. No kernel is running!")
+    RuntimeError: Cannot interrupt kernel. No kernel is running!
+[E 17:52:28.210 NotebookApp] Exception in callback <bound method KernelRestarter.poll of <jupyter_client.ioloop.restarter.IOLoopKernelRestarter object at 0x7fe9d6bc3f60>>
+    Traceback (most recent call last):
+      File "/usr/local/lib/python3.6/dist-packages/tornado/ioloop.py", line 905, in _run
+        return self.callback()
+      File "/usr/local/lib/python3.6/dist-packages/jupyter_client/restarter.py", line 143, in poll
+        self.kernel_manager.restart_kernel(now=True, newports=newports)
+      File "/usr/local/lib/python3.6/dist-packages/jupyter_client/utils.py", line 26, in wrapped
+        raise e
+      File "/usr/local/lib/python3.6/dist-packages/jupyter_client/utils.py", line 23, in wrapped
+        return loop.run_until_complete(future)
+      File "/usr/local/lib/python3.6/dist-packages/nest_asyncio.py", line 89, in run_until_complete
+        return f.result()
+      File "/usr/lib/python3.6/asyncio/tasks.py", line 180, in _step
+        result = coro.send(None)
+      File "/usr/local/lib/python3.6/dist-packages/jupyter_client/manager.py", line 523, in _async_restart_kernel
+        await ensure_async(self.shutdown_kernel(now=now, restart=True))
+      File "/usr/local/lib/python3.6/dist-packages/jupyter_client/utils.py", line 26, in wrapped
+        raise e
+      File "/usr/local/lib/python3.6/dist-packages/jupyter_client/utils.py", line 23, in wrapped
+        return loop.run_until_complete(future)
+      File "/usr/local/lib/python3.6/dist-packages/nest_asyncio.py", line 89, in run_until_complete
+        return f.result()
+      File "/usr/lib/python3.6/asyncio/tasks.py", line 180, in _step
+        result = coro.send(None)
+      File "/usr/local/lib/python3.6/dist-packages/jupyter_client/manager.py", line 79, in wrapper
+        raise e
+      File "/usr/local/lib/python3.6/dist-packages/jupyter_client/manager.py", line 71, in wrapper
+        out = await method(self, *args, **kwargs)
+      File "/usr/local/lib/python3.6/dist-packages/jupyter_client/manager.py", line 479, in _async_shutdown_kernel
+        await ensure_async(self.interrupt_kernel())
+      File "/usr/local/lib/python3.6/dist-packages/jupyter_client/utils.py", line 26, in wrapped
+        raise e
+      File "/usr/local/lib/python3.6/dist-packages/jupyter_client/utils.py", line 23, in wrapped
+        return loop.run_until_complete(future)
+      File "/usr/local/lib/python3.6/dist-packages/nest_asyncio.py", line 89, in run_until_complete
+        return f.result()
+      File "/usr/lib/python3.6/asyncio/tasks.py", line 180, in _step
+        result = coro.send(None)
+      File "/usr/local/lib/python3.6/dist-packages/jupyter_client/manager.py", line 587, in _async_interrupt_kernel
+        raise RuntimeError("Cannot interrupt kernel. No kernel is running!")
+    RuntimeError: Cannot interrupt kernel. No kernel is running!
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/jupyter_client/manager.py", line 74, in wrapper
+    self._ready.set_result(None)
+asyncio.base_futures.InvalidStateError: invalid state
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/bin/jupyter-notebook", line 8, in <module>
+    sys.exit(main())
+  File "/usr/local/lib/python3.6/dist-packages/jupyter_core/application.py", line 264, in launch_instance
+    return super(JupyterApp, cls).launch_instance(argv=argv, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/traitlets/config/application.py", line 664, in launch_instance
+    app.start()
+  File "/usr/local/lib/python3.6/dist-packages/notebook/notebookapp.py", line 2388, in start
+    self.cleanup_kernels()
+  File "/usr/local/lib/python3.6/dist-packages/notebook/notebookapp.py", line 2167, in cleanup_kernels
+    run_sync(self.kernel_manager.shutdown_all())
+  File "/usr/local/lib/python3.6/dist-packages/jupyter_client/utils.py", line 26, in wrapped
+    raise e
+  File "/usr/local/lib/python3.6/dist-packages/jupyter_client/utils.py", line 23, in wrapped
+    return loop.run_until_complete(future)
+  File "/usr/local/lib/python3.6/dist-packages/nest_asyncio.py", line 89, in run_until_complete
+    return f.result()
+  File "/usr/lib/python3.6/asyncio/tasks.py", line 182, in _step
+    result = coro.throw(exc)
+  File "/usr/local/lib/python3.6/dist-packages/jupyter_client/multikernelmanager.py", line 322, in _async_shutdown_all
+    await asyncio.gather(*futs)
+  File "/usr/lib/python3.6/asyncio/tasks.py", line 250, in _wakeup
+    future.result()
+  File "/usr/lib/python3.6/asyncio/tasks.py", line 180, in _step
+    result = coro.send(None)
+  File "/usr/local/lib/python3.6/dist-packages/jupyter_client/utils.py", line 34, in ensure_async
+    return await obj
+  File "/usr/local/lib/python3.6/dist-packages/jupyter_client/multikernelmanager.py", line 239, in _shutdown_kernel_when_ready
+    await ensure_async(self.shutdown_kernel(kernel_id, now=now, restart=restart))
+  File "/usr/local/lib/python3.6/dist-packages/notebook/services/kernels/kernelmanager.py", line 304, in shutdown_kernel
+    self.pinned_superclass.shutdown_kernel(self, kernel_id, now=now, restart=restart)
+  File "/usr/local/lib/python3.6/dist-packages/jupyter_client/utils.py", line 26, in wrapped
+    raise e
+  File "/usr/local/lib/python3.6/dist-packages/jupyter_client/utils.py", line 23, in wrapped
+    return loop.run_until_complete(future)
+  File "/usr/local/lib/python3.6/dist-packages/nest_asyncio.py", line 89, in run_until_complete
+    return f.result()
+  File "/usr/lib/python3.6/asyncio/tasks.py", line 180, in _step
+    result = coro.send(None)
+  File "/usr/local/lib/python3.6/dist-packages/jupyter_client/multikernelmanager.py", line 277, in _async_shutdown_kernel
+    stopper = ensure_async(km.shutdown_kernel(now, restart))
+  File "/usr/local/lib/python3.6/dist-packages/jupyter_client/utils.py", line 26, in wrapped
+    raise e
+  File "/usr/local/lib/python3.6/dist-packages/jupyter_client/utils.py", line 23, in wrapped
+    return loop.run_until_complete(future)
+  File "/usr/local/lib/python3.6/dist-packages/nest_asyncio.py", line 89, in run_until_complete
+    return f.result()
+  File "/usr/lib/python3.6/asyncio/tasks.py", line 180, in _step
+    result = coro.send(None)
+  File "/usr/local/lib/python3.6/dist-packages/jupyter_client/manager.py", line 77, in wrapper
+    self._ready.set_exception(e)
+asyncio.base_futures.InvalidStateError: invalid state
