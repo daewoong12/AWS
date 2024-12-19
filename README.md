@@ -70,10 +70,11 @@ EDA를 수행하고 택시 여행 데이터를 정리합니다. 작업 단계는
 - 데이터를 학습용(train_df)과 테스트용(test_df)으로 나누고, parquet 형식으로 저장합니다.
 
 #### 3.2 **tune_hyperarameter.py**
-Airflow DAG를 정의하며, 데이터 파이프라인의 흐름을 관리 -> Airflow를 사용해 데이터 처리, 하이퍼파라미터 튜닝, 모델 학습 등을 자동화
-- Airflow의 DAG 객체를 정의하여, preprocess.py, tune_hyperparameter.py, train_model.py 순서대로 실행됩니다.
-- SparkSubmitOperator를 사용하여 Spark 애플리케이션을 실행합니다.
-- 각 스텝(preprocess, tune_hyperparameter, train_model)을 순차적으로 실행하고, 파이프라인의 흐름을 관리합니다.
+하이퍼 파라미터 튜닝을 위한 작업을 수행 -> 모델 학습에 최적의 하이퍼파라미터를 찾기 위해 하이퍼파라미터 튜닝을 수행
+- 데이터를 샘플링하여 학습용 데이터를 준비합니다.
+- StringIndexer와 OneHotEncoder, VectorAssembler, StandardScaler 등을 사용하여 데이터 전처리를 수행합니다.
+- CrossValidator와 ParamGridBuilder를 사용해 하이퍼파라미터(elasticNetParam, regParam)를 튜닝합니다.
+- 최적의 하이퍼파라미터를 찾아 hyperparameter.csv 파일로 저장합니다.
   
 #### 3.3 **train_model.py**
 머신러닝 모델을 학습하는 작업을 수행 -> LinearRegression 모델을 학습하고, 학습된 모델을 저장하여 이후 예측에 사용할 수 있게 한다.
@@ -82,11 +83,10 @@ Airflow DAG를 정의하며, 데이터 파이프라인의 흐름을 관리 -> Ai
 - 학습된 모델을 지정된 디렉토리에 저장합니다.
 
 #### 3.4 **taxi-price-pipeline.py**
-하이퍼 파라미터 튜닝을 위한 작업을 수행 -> 모델 학습에 최적의 하이퍼파라미터를 찾기 위해 하이퍼파라미터 튜닝을 수행
-- 데이터를 샘플링하여 학습용 데이터를 준비합니다.
-- StringIndexer와 OneHotEncoder, VectorAssembler, StandardScaler 등을 사용하여 데이터 전처리를 수행합니다.
-- CrossValidator와 ParamGridBuilder를 사용해 하이퍼파라미터(elasticNetParam, regParam)를 튜닝합니다.
-- 최적의 하이퍼파라미터를 찾아 hyperparameter.csv 파일로 저장합니다.
+Airflow DAG를 정의하며, 데이터 파이프라인의 흐름을 관리 -> Airflow를 사용해 데이터 처리, 하이퍼파라미터 튜닝, 모델 학습 등을 자동화
+- Airflow의 DAG 객체를 정의하여, preprocess.py, tune_hyperparameter.py, train_model.py 순서대로 실행됩니다.
+- SparkSubmitOperator를 사용하여 Spark 애플리케이션을 실행합니다.
+- 각 스텝(preprocess, tune_hyperparameter, train_model)을 순차적으로 실행하고, 파이프라인의 흐름을 관리합니다.
 
 task 작성을 마쳤으면, <br>
 ![image](https://github.com/user-attachments/assets/561b86e9-e822-45bf-aa6c-e7272b3c764f)<br>
