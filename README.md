@@ -94,5 +94,12 @@ Airflow DAG를 정의하며, 데이터 파이프라인의 흐름을 관리 -> Ai
 - day_of_week: 여행이 발생한 요일을 나타낸다. 이는 범주형 변수로 처리되어 OneHotEncoder로 변환된다.
 - total_amount: 실제 택시 요금. 이는 모델이 예측하려는 대상 값
 - prediction: 모델이 예측한 택시 요금. trip_distance와 day_of_week를 기반으로 예측된 값.
+
+task 작성을 마쳤으면,
+![image](https://github.com/user-attachments/assets/561b86e9-e822-45bf-aa6c-e7272b3c764f)
+![image](https://github.com/user-attachments/assets/ac3a103a-a848-4fcd-a2c3-29c9b127678a)
+Airflow의 웹 서버를 열고 scheduler를 실행한다.(커맨드창 두개를 띄우는 것을 추천!)
+
+
 ![image](https://github.com/user-attachments/assets/f071c1ce-f785-4921-99b9-4f167d42dc29)
 결론 : 모델은 일정 부분 정확한 예측을 하지만, 여전히 예측 오차가 존재한다. 예측값이 실제값에 얼마나 가까운지, 예측 오차가 얼마나 큰지를 기반으로 모델의 성능을 개선할 수 있다.
