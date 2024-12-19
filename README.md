@@ -80,7 +80,8 @@ Airflow DAG를 정의하며, 데이터 파이프라인의 흐름을 관리 -> Ai
 - CrossValidator와 ParamGridBuilder를 사용해 하이퍼파라미터(elasticNetParam, regParam)를 튜닝합니다.
 - 최적의 하이퍼파라미터를 찾아 hyperparameter.csv 파일로 저장합니다.
 
-# 예측 결과 해석 : 예측값과 실제값을 비교하여 모델이 얼마나 정확하게 예측했는지를 확인할 수 있다.
+#### 3.5 airflow 예측 결과 해석
+예측값과 실제값을 비교하여 모델이 얼마나 정확하게 예측했는지를 확인할 수 있다.
 predictions.select(["trip_distance", "day_of_week", "total_amount", "prediction"]).show()
 - trip_distance: 실제 여행 거리 값. 모델의 입력 변수로 사용된 값.
 - day_of_week: 여행이 발생한 요일을 나타낸다. 이는 범주형 변수로 처리되어 OneHotEncoder로 변환된다.
