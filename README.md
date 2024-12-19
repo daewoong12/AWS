@@ -100,6 +100,16 @@ task 작성을 마쳤으면, <br>
 ![image](https://github.com/user-attachments/assets/ac3a103a-a848-4fcd-a2c3-29c9b127678a)<br>
 Airflow의 웹 서버를 열고 scheduler를 실행한다.(커맨드창 두개를 띄우는 것을 추천!)
 
+url : (http://EIP:8080/)
+![image](https://github.com/user-attachments/assets/a1e17897-1a10-45f8-9ac9-d6c90e1f2849)
+![image](https://github.com/user-attachments/assets/8cbfdf53-109c-4bd2-86f9-014e08d494b7)
+![image](https://github.com/user-attachments/assets/5c62a8f9-0d76-496f-aba3-cdd455b8efe0)
+위와 같이 저장후, DAGs에서 내가 생성한 Dag 파일(taxi-price-pipeline) 클릭
+![image](https://github.com/user-attachments/assets/94622cd4-3b27-46f5-8f17-dfc3714d21fc)
+
+
+
+
 
 ![image](https://github.com/user-attachments/assets/f071c1ce-f785-4921-99b9-4f167d42dc29)
 결론 : 모델은 일정 부분 정확한 예측을 하지만, 여전히 예측 오차가 존재한다. 예측값이 실제값에 얼마나 가까운지, 예측 오차가 얼마나 큰지를 기반으로 모델의 성능을 개선할 수 있다.
