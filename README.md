@@ -79,3 +79,12 @@ Airflow DAG를 정의하며, 데이터 파이프라인의 흐름을 관리 -> Ai
 - StringIndexer와 OneHotEncoder, VectorAssembler, StandardScaler 등을 사용하여 데이터 전처리를 수행합니다.
 - CrossValidator와 ParamGridBuilder를 사용해 하이퍼파라미터(elasticNetParam, regParam)를 튜닝합니다.
 - 최적의 하이퍼파라미터를 찾아 hyperparameter.csv 파일로 저장합니다.
+
+# 예측 결과 해석 : 예측값과 실제값을 비교하여 모델이 얼마나 정확하게 예측했는지를 확인할 수 있다.
+predictions.select(["trip_distance", "day_of_week", "total_amount", "prediction"]).show()
+- trip_distance: 실제 여행 거리 값. 모델의 입력 변수로 사용된 값.
+- day_of_week: 여행이 발생한 요일을 나타낸다. 이는 범주형 변수로 처리되어 OneHotEncoder로 변환된다.
+- total_amount: 실제 택시 요금. 이는 모델이 예측하려는 대상 값
+- prediction: 모델이 예측한 택시 요금. trip_distance와 day_of_week를 기반으로 예측된 값.
+  ![image](https://github.com/user-attachments/assets/c2c43c94-9f4d-465e-9d42-f52cedb1d450)
+
