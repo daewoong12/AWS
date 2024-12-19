@@ -82,10 +82,9 @@ Airflow DAG를 정의하며, 데이터 파이프라인의 흐름을 관리 -> Ai
 
 #### 3.5 airflow 예측 결과 해석
 예측값과 실제값을 비교하여 모델이 얼마나 정확하게 예측했는지를 확인할 수 있다.
-predictions.select(["trip_distance", "day_of_week", "total_amount", "prediction"]).show()
 - trip_distance: 실제 여행 거리 값. 모델의 입력 변수로 사용된 값.
 - day_of_week: 여행이 발생한 요일을 나타낸다. 이는 범주형 변수로 처리되어 OneHotEncoder로 변환된다.
 - total_amount: 실제 택시 요금. 이는 모델이 예측하려는 대상 값
 - prediction: 모델이 예측한 택시 요금. trip_distance와 day_of_week를 기반으로 예측된 값.
-  ![image](https://github.com/user-attachments/assets/c2c43c94-9f4d-465e-9d42-f52cedb1d450)
-
+![image](https://github.com/user-attachments/assets/f071c1ce-f785-4921-99b9-4f167d42dc29)
+결론 : 모델은 일정 부분 정확한 예측을 하지만, 여전히 예측 오차가 존재한다. 예측값이 실제값에 얼마나 가까운지, 예측 오차가 얼마나 큰지를 기반으로 모델의 성능을 개선할 수 있다.
