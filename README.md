@@ -95,9 +95,9 @@ Airflow DAG를 정의하며, 데이터 파이프라인의 흐름을 관리 -> Ai
 - total_amount: 실제 택시 요금. 이는 모델이 예측하려는 대상 값
 - prediction: 모델이 예측한 택시 요금. trip_distance와 day_of_week를 기반으로 예측된 값.
 
-task 작성을 마쳤으면,
-![image](https://github.com/user-attachments/assets/561b86e9-e822-45bf-aa6c-e7272b3c764f)
-![image](https://github.com/user-attachments/assets/ac3a103a-a848-4fcd-a2c3-29c9b127678a)
+task 작성을 마쳤으면, <br>
+![image](https://github.com/user-attachments/assets/561b86e9-e822-45bf-aa6c-e7272b3c764f)<br>
+![image](https://github.com/user-attachments/assets/ac3a103a-a848-4fcd-a2c3-29c9b127678a)<br>
 Airflow의 웹 서버를 열고 scheduler를 실행한다.(커맨드창 두개를 띄우는 것을 추천!)
 
 
