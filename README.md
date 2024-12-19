@@ -1,14 +1,14 @@
 # 택시 요금 예측 프로젝트
 이 프로젝트는 Apache Spark와 PySpark를 사용하여 택시 여행 데이터를 분석하고, 여행 거리 및 다른 요인을 바탕으로 택시 요금을 예측하는 모델을 구축합니다. 데이터 처리, 탐색적 데이터 분석(EDA), 선형 회귀 모델을 통해 택시 요금을 예측하는 과정을 포함하고 있습니다.
 
-## 프로젝트 구조
-### 1. **SQL_analysis.ipynb**
+# 프로젝트 구조
+## 1. **SQL_analysis.ipynb**
 EDA를 수행하고 택시 여행 데이터를 정리합니다. 작업 단계는 다음과 같습니다
 - 여행 데이터와 지역 데이터(픽업/하차 구역)를 로드합니다.
 - 기본적인 통계값을 확인하고 결측치를 계산합니다.
 - 택시 요금, 이동 거리, 승객 수 등 다양한 변수 간의 관계를 시각화합니다.
 
-### 2. **Spark_MLib.ipynb**
+## 2. **Spark_MLib.ipynb**
 선형 회귀 모델을 사용하여 택시 요금을 예측합니다. 작업 단계는 다음과 같습니다.
 - **데이터 로드 및 전처리**: `trip_distance`와 `total_amount` 컬럼을 기반으로 데이터를 정리하고, 불필요한 이상치를 제거합니다.
 - **데이터 분할**: 훈련 데이터(train_df)와 테스트 데이터(test_df)로 데이터를 나눕니다.
@@ -52,7 +52,7 @@ EDA를 수행하고 택시 여행 데이터를 정리합니다. 작업 단계는
 - RMSE는 예측값과 실제값 간의 차이를 나타내는 지표로, 값이 작을수록 모델이 예측을 잘 수행하고 있다는 것을 의미합니다. 예를 들어, RMSE가 5.88이라는 것은 모델이 예측한 값과 실제 total_amount 값 간에 평균적으로 약 5.88의 차이가 있다는 뜻입니다.
 - R²(결정계수)는 모델이 trip_distance와 total_amount 간의 관계를 얼마나 잘 설명하는지를 나타내며, 약 79.66%의 설명력을 가지고 있습니다.
 
-### 3. **Airflow**
+## 3. **Airflow**
 스파크로 구현한 모든 과정을 자동화할 수 있도록 Airflow로 구현하였다.
 ![image](https://github.com/user-attachments/assets/96d5c7e3-3474-4215-82e4-6e0e7fa65f86)
 ![image](https://github.com/user-attachments/assets/04306a2d-a32d-489d-990f-750aa87c04a1)
@@ -62,26 +62,26 @@ EDA를 수행하고 택시 여행 데이터를 정리합니다. 작업 단계는
 - DAG를 구성하기 앞서, 플로우로 구성할 테스크들을 작성한다.
 - 앞의 머신러닝 절차를 파이썬 파일로 간단하게 생성할 것이다.
   
-##### 3.1 **preprocess.py**
+#### 3.1 **preprocess.py**
 데이터를 전처리하는 작업을 수행 -> 데이터 전처리를 통해 모델 학습에 적합한 형태로 데이터를 준비
 - SparkSession을 사용하여 Spark 환경을 설정하고 데이터를 로드합니다.
 - SQL 쿼리를 통해 데이터를 필터링하고 필요한 컬럼(passenger_count, pickup_location_id, dropoff_location_id, trip_distance, pickup_time, day_of_week, total_amount)을 선택합니다.
 - 데이터 범위를 2021년 1월 1일부터 2021년 8월 1일까지로 제한하고, 잘못된 데이터(예: total_amount가 5000 이상, trip_distance가 500 이상인 경우 등)를 제거합니다.
 - 데이터를 학습용(train_df)과 테스트용(test_df)으로 나누고, parquet 형식으로 저장합니다.
 
-##### 3.2 **tune_hyperarameter.py**
+#### 3.2 **tune_hyperarameter.py**
 Airflow DAG를 정의하며, 데이터 파이프라인의 흐름을 관리 -> Airflow를 사용해 데이터 처리, 하이퍼파라미터 튜닝, 모델 학습 등을 자동화
 - Airflow의 DAG 객체를 정의하여, preprocess.py, tune_hyperparameter.py, train_model.py 순서대로 실행됩니다.
 - SparkSubmitOperator를 사용하여 Spark 애플리케이션을 실행합니다.
 - 각 스텝(preprocess, tune_hyperparameter, train_model)을 순차적으로 실행하고, 파이프라인의 흐름을 관리합니다.
   
-##### 3.3 **train_model.py**
+#### 3.3 **train_model.py**
 머신러닝 모델을 학습하는 작업을 수행 -> LinearRegression 모델을 학습하고, 학습된 모델을 저장하여 이후 예측에 사용할 수 있게 한다.
 - 데이터를 로드한 후, 범주형 변수는 StringIndexer와 OneHotEncoder를 사용해 처리하고, 수치형 변수는 VectorAssembler와 StandardScaler를 사용해 벡터화 및 스케일링합니다.
 - LinearRegression 모델을 학습하고, 예측 결과를 저장합니다.
 - 학습된 모델을 지정된 디렉토리에 저장합니다.
 
-##### 3.4 **taxi-price-pipeline.py**
+#### 3.4 **taxi-price-pipeline.py**
 하이퍼 파라미터 튜닝을 위한 작업을 수행 -> 모델 학습에 최적의 하이퍼파라미터를 찾기 위해 하이퍼파라미터 튜닝을 수행
 - 데이터를 샘플링하여 학습용 데이터를 준비합니다.
 - StringIndexer와 OneHotEncoder, VectorAssembler, StandardScaler 등을 사용하여 데이터 전처리를 수행합니다.
@@ -103,7 +103,7 @@ url : (내 EIP:8080/)
 ![image](https://github.com/user-attachments/assets/5dea8399-75d4-4071-bf08-08479cb0800c)<br>
 위 이미지와 같이 모든 테스크가 정상적으로 진행됨을 확인할 수 있다.<br>
 
-#### airflow 예측 결과 해석
+### airflow 예측 결과 해석
 예측값과 실제값을 비교하여 모델이 얼마나 정확하게 예측했는지를 확인할 수 있다.
 - trip_distance: 실제 여행 거리 값. 모델의 입력 변수로 사용된 값.
 - day_of_week: 여행이 발생한 요일을 나타낸다. 이는 범주형 변수로 처리되어 OneHotEncoder로 변환된다.
