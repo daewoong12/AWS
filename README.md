@@ -101,14 +101,14 @@ task 작성을 마쳤으면, <br>
 Airflow의 웹 서버를 열고 scheduler를 실행한다.(커맨드창 두개를 띄우는 것을 추천!)
 
 url : (내 EIP:8080/)
-![image](https://github.com/user-attachments/assets/a1e17897-1a10-45f8-9ac9-d6c90e1f2849)
-![image](https://github.com/user-attachments/assets/8cbfdf53-109c-4bd2-86f9-014e08d494b7)
-![image](https://github.com/user-attachments/assets/5c62a8f9-0d76-496f-aba3-cdd455b8efe0)
-위와 같이 저장후, DAGs에서 내가 생성한 Dag 파일(taxi-price-pipeline) 클릭
-![image](https://github.com/user-attachments/assets/94622cd4-3b27-46f5-8f17-dfc3714d21fc)
-![image](https://github.com/user-attachments/assets/c88bc3f1-5a21-4d7e-8ca3-38a8205ef976)
-![image](https://github.com/user-attachments/assets/5dea8399-75d4-4071-bf08-08479cb0800c)
-위 이미지와 같이 모든 테스크가 정상적으로 진행됨을 확인할 수 있다.
+![image](https://github.com/user-attachments/assets/a1e17897-1a10-45f8-9ac9-d6c90e1f2849)<br>
+![image](https://github.com/user-attachments/assets/8cbfdf53-109c-4bd2-86f9-014e08d494b7)<br>
+![image](https://github.com/user-attachments/assets/5c62a8f9-0d76-496f-aba3-cdd455b8efe0)<br>
+위와 같이 저장후, DAGs에서 내가 생성한 Dag 파일(taxi-price-pipeline) 클릭<br>
+![image](https://github.com/user-attachments/assets/94622cd4-3b27-46f5-8f17-dfc3714d21fc)<br>
+![image](https://github.com/user-attachments/assets/c88bc3f1-5a21-4d7e-8ca3-38a8205ef976)<br>
+![image](https://github.com/user-attachments/assets/5dea8399-75d4-4071-bf08-08479cb0800c)<br>
+위 이미지와 같이 모든 테스크가 정상적으로 진행됨을 확인할 수 있다.<br>
 
 
 ![image](https://github.com/user-attachments/assets/f071c1ce-f785-4921-99b9-4f167d42dc29)
