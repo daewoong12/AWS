@@ -3,8 +3,8 @@
 
 
 # 프로젝트 구조
-- 우선 jupyter notebook을 활용해서 데이터 SQL_analysis.ipynb, Spark_MLib.ipynb에서 전처리, EDA, 예측 모델 학습 및 분석을 진행. 
-- Airflow를 사용하여 위에 했던 작업들(데이터 전처리, 하이퍼파라미터 튜닝, 모델 학습)의 모든 작업을 자동화하였습니다. Airflow의 **DAG**를 정의하여 각 작업을 순차적으로 실행하며, 이를 통해 데이터 파이프라인을 관리합니다.
+- 우선 jupyter notebook을 활용해서 데이터 SQL_analysis.ipynb, Spark_MLib.ipynb에서 전처리, EDA, 예측 모델 학습 및 분석보고서 작성. 
+- Airflow를 사용하여 위에 했던 작업들(데이터 전처리, 하이퍼파라미터 튜닝, 모델 학습)의 모든 작업을 자동화하였습니다. Airflow의 **DAG**를 정의하여 각 작업을 순차적으로 실행하며, 이를 통해 데이터 파이프라인을 관리.
 ![image](https://github.com/user-attachments/assets/a7974ce2-49a0-482f-9c82-61a2ed8b5609) 
 
 ## 1. **SQL_analysis.ipynb**
