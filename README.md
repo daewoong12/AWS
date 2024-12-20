@@ -16,6 +16,27 @@
 - jupyter notebook(SQL_analysis.ipynb, Spark_MLib.ipynb)을 활용해서 전처리, EDA, 예측 모델 학습 및 분석보고서 작성. 
 - Airflow를 사용하여 위에 했던 작업들(데이터 전처리, 하이퍼파라미터 튜닝, 모델 학습)의 모든 작업을 자동화하였습니다. Airflow의 **DAG**를 정의하여 각 작업을 순차적으로 실행하며, 이를 통해 데이터 파이프라인을 관리.
 ![image](https://github.com/user-attachments/assets/a7974ce2-49a0-482f-9c82-61a2ed8b5609)
+### 데이터 컬럼 설명
+- **passenger_count**: 승객 수를 나타내는 정수형 컬럼. 예: `1`, `2`, `3`
+- **pickup_location_id**: 택시를 탑승한 지역의 ID. 특정 지역을 나타내는 고유 ID.
+- **dropoff_location_id**: 택시에서 하차한 지역의 ID. 특정 하차 지역을 나타내는 고유 ID.
+- **trip_distance**: 여행의 총 거리(km 단위). 예: `5.3`, `10.7`
+- **pickup_time**: 택시를 탑승한 시간의 "시" 부분. 예: `8`
+- **day_of_week**: 택시가 탑승한 요일을 나타내는 문자열. 예: `"Monday"`, `"Friday"`
+- **total_amount**: 택시 여행의 총 금액. 예: `15.5`, `25.0`
+- **pickup_location_id_idx**: `pickup_location_id`에 대한 숫자형 인덱스 값.
+- **pickup_location_id_onehot**: `pickup_location_id_idx`의 원핫 인코딩 결과.
+- **dropoff_location_id_idx**: `dropoff_location_id`에 대한 숫자형 인덱스 값.
+- **dropoff_location_id_onehot**: `dropoff_location_id_idx`의 원핫 인코딩 결과.
+- **day_of_week_idx**: `day_of_week`에 대한 숫자형 인덱스 값.
+- **day_of_week_onehot**: `day_of_week_idx`의 원핫 인코딩 결과.
+- **passenger_count_vecotr**: `passenger_count`를 벡터 형식으로 변환한 값.
+- **passenger_count_scaled**: `passenger_count` 값을 표준화(스케일링)하여 평균 0, 표준편차 1로 변환한 값.
+- **trip_distance_vecotr**: `trip_distance`를 벡터 형식으로 변환한 값.
+- **trip_distance_scaled**: `trip_distance` 값을 표준화(스케일링)하여 평균 0, 표준편차 1로 변환한 값.
+- **pickup_time_vecotr**: `pickup_time`을 벡터 형식으로 변환한 값.
+- **pickup_time_scaled**: `pickup_time` 값을 표준화(스케일링)하여 평균 0, 표준편차 1로 변환한 값.
+- **feature_vector**: 위에서 설명한 모든 변수를 하나의 벡터로 결합한 값. 이 값은 모델 학습에 사용.
 
 ## 1. **SQL_analysis.ipynb**
 EDA를 수행하고 택시 여행 데이터를 정리합니다. 작업 단계는 다음과 같습니다
@@ -45,28 +66,6 @@ EDA를 수행하고 택시 여행 데이터를 정리합니다. 작업 단계는
 - **모델 학습**: 선형 회귀 모델을 학습시키고, 테스트 데이터에 대한 예측을 수행합니다.
 - **모델 평가**: RMSE(평균 제곱근 오차)와 R-squared(결정 계수)를 계산하여 모델의 성능을 평가합니다.
 - **모델 저장 및 로드**: 학습된 모델을 저장하고, 나중에 불러와서 예측을 수행할 수 있도록 합니다.
-
-### 데이터 컬럼 설명
-- **passenger_count**: 승객 수를 나타내는 정수형 컬럼. 예: `1`, `2`, `3`
-- **pickup_location_id**: 택시를 탑승한 지역의 ID. 특정 지역을 나타내는 고유 ID.
-- **dropoff_location_id**: 택시에서 하차한 지역의 ID. 특정 하차 지역을 나타내는 고유 ID.
-- **trip_distance**: 여행의 총 거리(km 단위). 예: `5.3`, `10.7`
-- **pickup_time**: 택시를 탑승한 시간의 "시" 부분. 예: `8`
-- **day_of_week**: 택시가 탑승한 요일을 나타내는 문자열. 예: `"Monday"`, `"Friday"`
-- **total_amount**: 택시 여행의 총 금액. 예: `15.5`, `25.0`
-- **pickup_location_id_idx**: `pickup_location_id`에 대한 숫자형 인덱스 값.
-- **pickup_location_id_onehot**: `pickup_location_id_idx`의 원핫 인코딩 결과.
-- **dropoff_location_id_idx**: `dropoff_location_id`에 대한 숫자형 인덱스 값.
-- **dropoff_location_id_onehot**: `dropoff_location_id_idx`의 원핫 인코딩 결과.
-- **day_of_week_idx**: `day_of_week`에 대한 숫자형 인덱스 값.
-- **day_of_week_onehot**: `day_of_week_idx`의 원핫 인코딩 결과.
-- **passenger_count_vecotr**: `passenger_count`를 벡터 형식으로 변환한 값.
-- **passenger_count_scaled**: `passenger_count` 값을 표준화(스케일링)하여 평균 0, 표준편차 1로 변환한 값.
-- **trip_distance_vecotr**: `trip_distance`를 벡터 형식으로 변환한 값.
-- **trip_distance_scaled**: `trip_distance` 값을 표준화(스케일링)하여 평균 0, 표준편차 1로 변환한 값.
-- **pickup_time_vecotr**: `pickup_time`을 벡터 형식으로 변환한 값.
-- **pickup_time_scaled**: `pickup_time` 값을 표준화(스케일링)하여 평균 0, 표준편차 1로 변환한 값.
-- **feature_vector**: 위에서 설명한 모든 변수를 하나의 벡터로 결합한 값. 이 값은 모델 학습에 사용.
 
 #### 모델 예측 : R² = 0.7966, RMSE = 5.8801
 - 모델은 trip_distance(여행 거리)를 입력으로 사용하여 total_amount(택시 요금)을 예측. trip_distance 값을 알고 있을 때, total_amount 택시 요금을 예측할 수 있습니다.
