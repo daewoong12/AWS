@@ -97,7 +97,7 @@ EDA를 수행하고 택시 여행 데이터를 정리합니다. 작업 단계는
 ![image](https://github.com/user-attachments/assets/fcc29698-1bc1-468b-9702-3fc5a7291e04)
 
 - CrossValidator와 ParamGridBuilder를 사용해 하이퍼 파라미터(elasticNetParam, regParam)를 튜닝합니다.
-![image](https://github.com/user-attachments/assets/7827ff5f-f175-4894-8857-f0dc51f090be)
+![image](https://github.com/user-attachments/assets/6a46e295-9938-4ba1-829a-fd935278a0f7)
 1. CrossValidator: 교차 검증(Cross-validation)을 수행하는 객체로, 주어진 데이터셋을 여러 개의 폴드(fold)로 나누고 각 폴드에 대해 모델을 학습하고 평가합니다. 교차 검증은 모델이 훈련 데이터에 과적합(overfitting)되지 않도록 하여, 모델의 일반화 성능을 평가할 수 있습니다.
 
 2. ParamGridBuilder: 하이퍼파라미터의 값을 여러 가지 조합으로 설정할 수 있도록 돕는 객체입니다. 다양한 하이퍼파라미터 값을 정의한 후, CrossValidator에 제공하여 모델을 평가할 수 있습니다.
