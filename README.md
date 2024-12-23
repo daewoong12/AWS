@@ -84,14 +84,14 @@ EDA를 수행하고 택시 여행 데이터를 정리합니다. 작업 단계는
 - 앞의 머신러닝 절차를 파이썬 파일로 간단하게 생성할 것이다.
   
 #### 3.1 **preprocess.py**
-데이터를 전처리하는 작업을 수행 -> 데이터 전처리를 통해 모델 학습에 적합한 형태로 데이터를 준비
+데이터 전처리를 통해 모델 학습에 적합한 형태로 데이터를 준비
 - SparkSession을 사용하여 Spark 환경을 설정하고 데이터를 로드합니다.
 - SQL 쿼리를 통해 데이터를 필터링하고 필요한 컬럼(passenger_count, pickup_location_id, dropoff_location_id, trip_distance, pickup_time, day_of_week, total_amount)을 선택합니다.
 - 데이터 범위를 2021년 1월 1일부터 2021년 8월 1일까지로 제한하고, 잘못된 데이터(예: total_amount가 5000 이상, trip_distance가 500 이상인 경우 등)를 제거합니다.
 - 데이터를 학습용(train_df)과 테스트용(test_df)으로 나누고, parquet 형식으로 저장합니다.
 
 #### 3.2 **tune_hyperarameter.py**
-하이퍼 파라미터 튜닝을 위한 작업을 수행 -> 모델 학습에 최적의 하이퍼파라미터를 찾기 위해 하이퍼파라미터 튜닝을 수행
+모델 학습에 최적의 하이퍼파라미터를 찾기 위해 하이퍼파라미터 튜닝을 수행
 - 데이터를 샘플링하여 학습용 데이터를 준비합니다.
 - 범주형 변수는 StringIndexer와 OneHotEncoder를 사용해 처리하고, 수치형 변수는 VectorAssembler와 StandardScaler를 사용해 벡터화 및 스케일링합니다.
 ![image](https://github.com/user-attachments/assets/fcc29698-1bc1-468b-9702-3fc5a7291e04)
