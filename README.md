@@ -42,7 +42,7 @@
 EDA를 수행하고 택시 여행 데이터를 정리합니다. 작업 단계는 다음과 같습니다
 - 여행 데이터(yellow_tripdata_2021-01~07.csv)와 지역 데이터(taxi+_zone_lookup.csv)를 로드합니다.
 - 기본적인 통계값을 확인하고 데이터의 결측치와 이상치를 분석해서 불필요한 데이터는 없앱니다.
-    ![image](https://github.com/user-attachments/assets/9a6d70eb-b173-45f3-8e26-377fb3c652e6)
+    ![image](https://github.com/user-attachments/assets/044e82d9-6aff-4de0-974a-7ebbe30a33e1)
 1. c.total_amount < 5000 AND c.total_amount > 0
 - total_amount는 택시 요금인데, 이상치가 존재하는 것을 발견했습니다. 예를 들어, 매우 높은 요금(5000 이상)은 실수나 데이터 오류일 가능성이 크고, 0 이하의 값도 실제 요금으로 존재하지 않기 때문에 이를 제외했습니다.
 
