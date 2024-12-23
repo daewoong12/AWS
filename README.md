@@ -108,6 +108,8 @@ Airflow DAG를 정의하며, 데이터 파이프라인의 흐름을 관리 -> Ai
 - Airflow의 DAG 객체를 정의하여, preprocess.py, tune_hyperparameter.py, train_model.py 순서대로 실행됩니다.
 - SparkSubmitOperator를 사용하여 Spark 애플리케이션을 실행합니다.
 - 각 스텝(preprocess, tune_hyperparameter, train_model)을 순차적으로 실행하고, 파이프라인의 흐름을 관리합니다.
+![image](https://github.com/user-attachments/assets/d88f0190-d6b5-4508-87ef-d64a2bda9342)
+
 
 task 작성을 마쳤으면, <br>
 ![image](https://github.com/user-attachments/assets/561b86e9-e822-45bf-aa6c-e7272b3c764f)<br>
