@@ -93,22 +93,22 @@ EDA를 수행하고 택시 여행 데이터를 정리합니다. 작업 단계는
 #### 3.2 **tune_hyperarameter.py**
 하이퍼 파라미터 튜닝을 위한 작업을 수행 -> 모델 학습에 최적의 하이퍼파라미터를 찾기 위해 하이퍼파라미터 튜닝을 수행
 - 데이터를 샘플링하여 학습용 데이터를 준비합니다.
-- StringIndexer와 OneHotEncoder, VectorAssembler, StandardScaler 등을 사용하여 데이터 전처리를 수행합니다.
+- 범주형 변수는 StringIndexer와 OneHotEncoder를 사용해 처리하고, 수치형 변수는 VectorAssembler와 StandardScaler를 사용해 벡터화 및 스케일링합니다.
 ![image](https://github.com/user-attachments/assets/fcc29698-1bc1-468b-9702-3fc5a7291e04)
 
-- CrossValidator와 ParamGridBuilder를 사용해 하이퍼파라미터(elasticNetParam, regParam)를 튜닝합니다.
+- CrossValidator와 ParamGridBuilder를 사용해 하이퍼 파라미터(elasticNetParam, regParam)를 튜닝합니다.
 1. CrossValidator: 교차 검증(Cross-validation)을 수행하는 객체로, 주어진 데이터셋을 여러 개의 폴드(fold)로 나누고 각 폴드에 대해 모델을 학습하고 평가합니다. 교차 검증은 모델이 훈련 데이터에 과적합(overfitting)되지 않도록 하여, 모델의 일반화 성능을 평가할 수 있습니다.
 
 2. ParamGridBuilder: 하이퍼파라미터의 값을 여러 가지 조합으로 설정할 수 있도록 돕는 객체입니다. 다양한 하이퍼파라미터 값을 정의한 후, CrossValidator에 제공하여 모델을 평가할 수 있습니다.
 
-3. elasticNetParam: 엘라스틱 넷(Elastic Net) 모델에서 사용되는 하이퍼파라미터입니다. 이 값은 L1 정규화(Lasso)와 L2 정규화(Ridge)의 비율을 설정합니다. 값이 0이면 L2 정규화만 사용하고, 값이 1이면 L1 정규화만 사용합니다. 이 파라미터는 모델의 복잡도를 제어하는 중요한 역할을 합니다.
+3. elasticNetParam: 엘라스틱 넷(Elastic Net) 모델에서 사용되는 하이퍼파라미터입니다. 이 파라미터는 모델의 복잡도를 제어하는 중요한 역할을 합니다.
 
-4. regParam: 정규화 파라미터로, 모델의 과적합을 방지하기 위해 사용됩니다. 값이 클수록 모델의 가중치가 작아져 과적합을 방지하지만, 너무 큰 값은 모델이 과도하게 단순화되어 성능이 떨어질 수 있습니다.
+4. regParam: 정규화 파라미터로, 모델의 과적합을 방지하기 위해 사용됩니다.
+
 - 최적의 하이퍼파라미터를 찾아 hyperparameter.csv 파일로 저장합니다.
   
 #### 3.3 **train_model.py**
 머신러닝 모델을 학습하는 작업을 수행 -> LinearRegression 모델을 학습하고, 학습된 모델을 저장하여 이후 예측에 사용할 수 있게 한다.
-- 데이터를 로드한 후, 범주형 변수는 StringIndexer와 OneHotEncoder를 사용해 처리하고, 수치형 변수는 VectorAssembler와 StandardScaler를 사용해 벡터화 및 스케일링합니다.
 - LinearRegression 모델을 학습하고, 예측 결과를 저장합니다.
 - 학습된 모델을 지정된 디렉토리에 저장합니다.
 
