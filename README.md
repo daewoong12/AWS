@@ -74,6 +74,7 @@ EDA를 수행하고 택시 여행 데이터를 정리합니다. 작업 단계는
 
 ## 3. **Airflow**
 스파크로 구현한 모든 과정을 자동화할 수 있도록 Airflow로 구현하였다.
+### 보안그룹 설정
 ![image](https://github.com/user-attachments/assets/96d5c7e3-3474-4215-82e4-6e0e7fa65f86)
 ![image](https://github.com/user-attachments/assets/04306a2d-a32d-489d-990f-750aa87c04a1)
 ![image](https://github.com/user-attachments/assets/5d899f9c-6284-4bf1-893e-52adefde6465)
